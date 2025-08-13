@@ -1,5 +1,36 @@
-# Default ignored files
+# ===== IntelliJ IDEA =====
+/.idea/
 /shelf/
 /workspace.xml
-# Environment-dependent path to Maven home directory
+*.iml
 /mavenHomeManager.xml
+out/
+
+# ===== Eclipse =====
+.project
+.classpath
+.settings/
+
+# ===== Java build =====
+*.class
+*.jar
+*.war
+*.ear
+target/
+
+# ===== Logs =====
+*.log
+logs/
+test-outputs/Logs/
+
+# ===== Screenshots =====
+test-outputs/ScreenShots/
+
+# ===== Allure Results =====
+allure-results/
+test-outputs/allure-results/
+
+# ===== System files =====
+.DS_Store
+Thumbs.db
+
