@@ -15,6 +15,6 @@
     "name": "Park Row Throw",
     "price": "$120.00"
   },
-  "SuggestProduct": ["pea","rx3"],
+  "SuggestProduct": ["des","rx3"],
   "numberOfProduct": ["1","5","100"]
   }

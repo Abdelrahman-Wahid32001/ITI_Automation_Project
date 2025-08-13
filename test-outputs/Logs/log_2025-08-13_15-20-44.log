@@ -1,0 +1,551 @@
+[DEBUG] - [13-08-2025 15:20:44] [main] [org.testng.TestNG] - suiteXmlPath: "D:\automation_Project\testng.xml"
+[INFO] - [13-08-2025 15:20:45] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [13-08-2025 15:20:45] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 3 ms.
+[INFO] - [13-08-2025 15:20:45] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [13-08-2025 15:20:45] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [13-08-2025 15:20:45] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [13-08-2025 15:20:45] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [13-08-2025 15:20:45] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [13-08-2025 15:20:45] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [13-08-2025 15:20:45] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [13-08-2025 15:20:45] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [13-08-2025 15:20:45] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [13-08-2025 15:20:45] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [13-08-2025 15:20:45] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [13-08-2025 15:20:45] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [13-08-2025 15:20:45] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [13-08-2025 15:20:45] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [13-08-2025 15:20:45] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+[INFO] - [13-08-2025 15:20:45] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 12 ms.
+[INFO] - [13-08-2025 15:20:45] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [13-08-2025 15:20:45] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [13-08-2025 15:20:45] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [13-08-2025 15:20:45] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [13-08-2025 15:20:45] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [13-08-2025 15:20:45] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [13-08-2025 15:20:45] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [13-08-2025 15:20:45] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 7 ms.
+[INFO] - [13-08-2025 15:20:45] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [13-08-2025 15:20:45] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [13-08-2025 15:20:45] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [13-08-2025 15:20:45] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [13-08-2025 15:20:45] [main] [listeners.TestNGListeners] -  Test Execution Start :
+[INFO] - [13-08-2025 15:20:46] [main] [utils.helper.PropertiesUtils] - Loading Properties File Data
+[INFO] - [13-08-2025 15:20:46] [main] [utils.helper.FilesUtils] - Cleaned directory successfully: test-outputs\ScreenShots
+[WARN] - [13-08-2025 15:20:46] [main] [utils.helper.FilesUtils] - Could not clean directory (maybe it's in use?): test-outputs\Logs
+[WARN] - [13-08-2025 15:20:46] [main] [listeners.TestNGListeners] - Logs folder is probably in use and couldn't be cleaned.
+[INFO] - [13-08-2025 15:20:46] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  D:\automation_Project\testng.xml
+
+[INFO] - [13-08-2025 15:20:46] [main] [org.testng.internal.Utils] - [Utils] DynamicGraphHelper.createDynamicGraph() took 9 ms.
+[INFO] - [13-08-2025 15:20:49] [main] [drivers.DriverManager] - Driver created on: Edge
+[INFO] - [13-08-2025 15:20:50] [main] [utils.actions.BrowserActions] - Navigate to URL:https://demo.mahocommerce.com/
+[INFO] - [13-08-2025 15:20:50] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: search
+[INFO] - [13-08-2025 15:20:50] [main] [utils.actions.Waits] - Waiting the element to be present By.id: search
+[INFO] - [13-08-2025 15:20:50] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: search
+[INFO] - [13-08-2025 15:20:50] [main] [utils.actions.ElementsActions] - Data entered: Chelsea Tee' into By.id: search
+[INFO] - [13-08-2025 15:20:50] [main] [utils.actions.Waits] - Waiting the element to be clickable By.cssSelector: button.button.search-button
+[INFO] - [13-08-2025 15:20:50] [main] [utils.actions.Waits] - Waiting the element to be visible By.cssSelector: button.button.search-button
+[INFO] - [13-08-2025 15:20:50] [main] [utils.actions.Waits] - Waiting the element to be present By.cssSelector: button.button.search-button
+[INFO] - [13-08-2025 15:20:50] [main] [utils.actions.Scrolling] - Scrolling to the element: By.cssSelector: button.button.search-button
+[INFO] - [13-08-2025 15:20:51] [main] [utils.actions.ElementsActions] - Clicking on element: By.cssSelector: button.button.search-button
+[INFO] - [13-08-2025 15:20:51] [main] [utils.actions.Waits] - Waiting the element to be clickable By.id: product-collection-image-409
+[INFO] - [13-08-2025 15:20:51] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: product-collection-image-409
+[INFO] - [13-08-2025 15:20:51] [main] [utils.actions.Waits] - Waiting the element to be present By.id: product-collection-image-409
+[INFO] - [13-08-2025 15:20:51] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: product-collection-image-409
+[INFO] - [13-08-2025 15:20:51] [main] [utils.actions.ElementsActions] - Clicking on element: By.id: product-collection-image-409
+[INFO] - [13-08-2025 15:20:51] [main] [utils.actions.Waits] - Waiting the element to be clickable By.id: option81
+[INFO] - [13-08-2025 15:20:51] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: option81
+[INFO] - [13-08-2025 15:20:51] [main] [utils.actions.Waits] - Waiting the element to be present By.id: option81
+[INFO] - [13-08-2025 15:20:52] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: option81
+[INFO] - [13-08-2025 15:20:52] [main] [utils.actions.ElementsActions] - Clicking on element: By.id: option81
+[INFO] - [13-08-2025 15:20:52] [main] [utils.actions.Waits] - Waiting the element to be clickable By.id: swatch22
+[INFO] - [13-08-2025 15:20:52] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: swatch22
+[INFO] - [13-08-2025 15:20:52] [main] [utils.actions.Waits] - Waiting the element to be present By.id: swatch22
+[INFO] - [13-08-2025 15:20:52] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: swatch22
+[INFO] - [13-08-2025 15:20:52] [main] [utils.actions.ElementsActions] - Clicking on element: By.id: swatch22
+[INFO] - [13-08-2025 15:20:52] [main] [utils.actions.Waits] - Waiting the element to be clickable By.cssSelector: button[title='Add to Cart']
+[INFO] - [13-08-2025 15:20:52] [main] [utils.actions.Waits] - Waiting the element to be visible By.cssSelector: button[title='Add to Cart']
+[INFO] - [13-08-2025 15:20:52] [main] [utils.actions.Waits] - Waiting the element to be present By.cssSelector: button[title='Add to Cart']
+[INFO] - [13-08-2025 15:20:52] [main] [utils.actions.Scrolling] - Scrolling to the element: By.cssSelector: button[title='Add to Cart']
+[INFO] - [13-08-2025 15:20:52] [main] [utils.actions.ElementsActions] - Clicking on element: By.cssSelector: button[title='Add to Cart']
+[INFO] - [13-08-2025 15:20:52] [main] [utils.actions.Waits] - Waiting the element to be visible By.cssSelector: input[title='Qty']
+[INFO] - [13-08-2025 15:20:52] [main] [utils.actions.Waits] - Waiting the element to be present By.cssSelector: input[title='Qty']
+[INFO] - [13-08-2025 15:20:52] [main] [utils.actions.Scrolling] - Scrolling to the element: By.cssSelector: input[title='Qty']
+[INFO] - [13-08-2025 15:20:53] [main] [utils.actions.ElementsActions] - Data entered: 1' into By.cssSelector: input[title='Qty']
+[INFO] - [13-08-2025 15:20:53] [main] [utils.actions.Waits] - Waiting the element to be clickable By.cssSelector: input[title='Qty']
+[INFO] - [13-08-2025 15:20:53] [main] [utils.actions.Waits] - Waiting the element to be visible By.cssSelector: input[title='Qty']
+[INFO] - [13-08-2025 15:20:53] [main] [utils.actions.Waits] - Waiting the element to be present By.cssSelector: input[title='Qty']
+[INFO] - [13-08-2025 15:20:53] [main] [utils.actions.Scrolling] - Scrolling to the element: By.cssSelector: input[title='Qty']
+[INFO] - [13-08-2025 15:20:53] [main] [utils.actions.ElementsActions] - Clicking on element: By.cssSelector: input[title='Qty']
+[INFO] - [13-08-2025 15:20:53] [main] [utils.actions.Waits] - Waiting the element to be clickable By.xpath: //*[@id="shopping-cart-table"]/tbody/tr/td[4]/button
+[INFO] - [13-08-2025 15:20:53] [main] [utils.actions.Waits] - Waiting the element to be visible By.xpath: //*[@id="shopping-cart-table"]/tbody/tr/td[4]/button
+[INFO] - [13-08-2025 15:20:53] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id="shopping-cart-table"]/tbody/tr/td[4]/button
+[INFO] - [13-08-2025 15:20:53] [main] [utils.actions.Scrolling] - Scrolling to the element: By.xpath: //*[@id="shopping-cart-table"]/tbody/tr/td[4]/button
+[INFO] - [13-08-2025 15:20:53] [main] [utils.actions.ElementsActions] - Clicking on element: By.xpath: //*[@id="shopping-cart-table"]/tbody/tr/td[4]/button
+[INFO] - [13-08-2025 15:20:53] [main] [utils.actions.Waits] - Waiting the element to be visible By.xpath: //*[@id="shopping-cart-table"]/tbody/tr[1]/td[5]/span/span
+[INFO] - [13-08-2025 15:20:53] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id="shopping-cart-table"]/tbody/tr[1]/td[5]/span/span
+[INFO] - [13-08-2025 15:20:53] [main] [utils.actions.Scrolling] - Scrolling to the element: By.xpath: //*[@id="shopping-cart-table"]/tbody/tr[1]/td[5]/span/span
+[INFO] - [13-08-2025 15:20:53] [main] [utils.actions.ElementsActions] - Getting the text from the By.xpath: //*[@id="shopping-cart-table"]/tbody/tr[1]/td[5]/span/span Text: $75.00
+[INFO] - [13-08-2025 15:20:53] [main] [pages.P8_ShoppingCartPage] - The expected price :75.00is not as actual75.00
+[INFO] - [13-08-2025 15:20:54] [main] [utils.actions.BrowserActions] - Navigate to URL:https://demo.mahocommerce.com/
+[INFO] - [13-08-2025 15:20:54] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: search
+[INFO] - [13-08-2025 15:20:54] [main] [utils.actions.Waits] - Waiting the element to be present By.id: search
+[INFO] - [13-08-2025 15:20:54] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: search
+[INFO] - [13-08-2025 15:20:54] [main] [utils.actions.ElementsActions] - Data entered: des' into By.id: search
+[INFO] - [13-08-2025 15:20:54] [main] [utils.actions.Waits] - Waiting the element to be visible By.cssSelector: #products-list > li
+[INFO] - [13-08-2025 15:20:54] [main] [utils.actions.Waits] - Waiting the element to be present By.cssSelector: #products-list > li
+[INFO] - [13-08-2025 15:20:54] [main] [utils.actions.Waits] - Waiting the element to be clickable By.cssSelector: #products-list > li
+[INFO] - [13-08-2025 15:20:54] [main] [utils.actions.Waits] - Waiting the element to be visible By.cssSelector: #products-list > li
+[INFO] - [13-08-2025 15:20:54] [main] [utils.actions.Waits] - Waiting the element to be present By.cssSelector: #products-list > li
+[INFO] - [13-08-2025 15:20:55] [main] [utils.actions.Waits] - Waiting the element to be clickable By.cssSelector: button[title='Add to Cart']
+[INFO] - [13-08-2025 15:20:55] [main] [utils.actions.Waits] - Waiting the element to be visible By.cssSelector: button[title='Add to Cart']
+[INFO] - [13-08-2025 15:20:55] [main] [utils.actions.Waits] - Waiting the element to be present By.cssSelector: button[title='Add to Cart']
+[INFO] - [13-08-2025 15:20:55] [main] [utils.actions.Scrolling] - Scrolling to the element: By.cssSelector: button[title='Add to Cart']
+[INFO] - [13-08-2025 15:20:56] [main] [utils.actions.ElementsActions] - Clicking on element: By.cssSelector: button[title='Add to Cart']
+[INFO] - [13-08-2025 15:20:56] [main] [utils.actions.Waits] - Waiting the element to be clickable By.xpath: //*[@id='main-content']/div/div[1]/ul/li/button
+[INFO] - [13-08-2025 15:20:56] [main] [utils.actions.Waits] - Waiting the element to be visible By.xpath: //*[@id='main-content']/div/div[1]/ul/li/button
+[INFO] - [13-08-2025 15:20:56] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id='main-content']/div/div[1]/ul/li/button
+[INFO] - [13-08-2025 15:20:56] [main] [utils.actions.Scrolling] - Scrolling to the element: By.xpath: //*[@id='main-content']/div/div[1]/ul/li/button
+[INFO] - [13-08-2025 15:20:56] [main] [utils.actions.ElementsActions] - Clicking on element: By.xpath: //*[@id='main-content']/div/div[1]/ul/li/button
+[INFO] - [13-08-2025 15:20:56] [main] [utils.actions.Waits] - Waiting the element to be clickable By.id: login:guest
+[INFO] - [13-08-2025 15:20:56] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: login:guest
+[INFO] - [13-08-2025 15:20:56] [main] [utils.actions.Waits] - Waiting the element to be present By.id: login:guest
+[INFO] - [13-08-2025 15:20:56] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: login:guest
+[INFO] - [13-08-2025 15:20:57] [main] [utils.actions.ElementsActions] - Clicking on element: By.id: login:guest
+[INFO] - [13-08-2025 15:20:57] [main] [utils.actions.Waits] - Waiting the element to be clickable By.id: onepage-guest-register-button
+[INFO] - [13-08-2025 15:20:57] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: onepage-guest-register-button
+[INFO] - [13-08-2025 15:20:57] [main] [utils.actions.Waits] - Waiting the element to be present By.id: onepage-guest-register-button
+[INFO] - [13-08-2025 15:20:57] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: onepage-guest-register-button
+[INFO] - [13-08-2025 15:20:57] [main] [utils.actions.ElementsActions] - Clicking on element: By.id: onepage-guest-register-button
+[INFO] - [13-08-2025 15:20:57] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: billing:firstname
+[INFO] - [13-08-2025 15:20:57] [main] [utils.actions.Waits] - Waiting the element to be present By.id: billing:firstname
+[INFO] - [13-08-2025 15:20:57] [main] [utils.actions.Waits] - Waiting the element to be present By.id: billing:firstname
+[INFO] - [13-08-2025 15:20:57] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: billing:firstname
+[INFO] - [13-08-2025 15:20:57] [main] [utils.actions.ElementsActions] - Data entered: Abdo' into By.id: billing:firstname
+[INFO] - [13-08-2025 15:20:57] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: billing:lastname
+[INFO] - [13-08-2025 15:20:57] [main] [utils.actions.Waits] - Waiting the element to be present By.id: billing:lastname
+[INFO] - [13-08-2025 15:20:57] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: billing:lastname
+[INFO] - [13-08-2025 15:20:57] [main] [utils.actions.ElementsActions] - Data entered: Wahid' into By.id: billing:lastname
+[INFO] - [13-08-2025 15:20:57] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: billing:email
+[INFO] - [13-08-2025 15:20:57] [main] [utils.actions.Waits] - Waiting the element to be present By.id: billing:email
+[INFO] - [13-08-2025 15:20:57] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: billing:email
+[INFO] - [13-08-2025 15:20:58] [main] [utils.actions.ElementsActions] - Data entered: nike@all.com' into By.id: billing:email
+[INFO] - [13-08-2025 15:20:58] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: billing:street1
+[INFO] - [13-08-2025 15:20:58] [main] [utils.actions.Waits] - Waiting the element to be present By.id: billing:street1
+[INFO] - [13-08-2025 15:20:58] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: billing:street1
+[INFO] - [13-08-2025 15:20:58] [main] [utils.actions.ElementsActions] - Data entered: Cairo' into By.id: billing:street1
+[INFO] - [13-08-2025 15:20:58] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: billing:city
+[INFO] - [13-08-2025 15:20:58] [main] [utils.actions.Waits] - Waiting the element to be present By.id: billing:city
+[INFO] - [13-08-2025 15:20:58] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: billing:city
+[INFO] - [13-08-2025 15:20:58] [main] [utils.actions.ElementsActions] - Data entered: Giza' into By.id: billing:city
+[INFO] - [13-08-2025 15:20:58] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: billing:postcode
+[INFO] - [13-08-2025 15:20:58] [main] [utils.actions.Waits] - Waiting the element to be present By.id: billing:postcode
+[INFO] - [13-08-2025 15:20:58] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: billing:postcode
+[INFO] - [13-08-2025 15:20:59] [main] [utils.actions.ElementsActions] - Data entered: 112233' into By.id: billing:postcode
+[INFO] - [13-08-2025 15:20:59] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: billing:telephone
+[INFO] - [13-08-2025 15:20:59] [main] [utils.actions.Waits] - Waiting the element to be present By.id: billing:telephone
+[INFO] - [13-08-2025 15:20:59] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: billing:telephone
+[INFO] - [13-08-2025 15:20:59] [main] [utils.actions.ElementsActions] - Data entered: 333396' into By.id: billing:telephone
+[INFO] - [13-08-2025 15:20:59] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: billing:region_id
+[INFO] - [13-08-2025 15:20:59] [main] [utils.actions.Waits] - Waiting the element to be present By.id: billing:region_id
+[INFO] - [13-08-2025 15:20:59] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: billing:region_id
+[INFO] - [13-08-2025 15:20:59] [main] [utils.actions.ElementsActions] - Select the item with index : 5
+[INFO] - [13-08-2025 15:20:59] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: billing:country_id
+[INFO] - [13-08-2025 15:20:59] [main] [utils.actions.Waits] - Waiting the element to be present By.id: billing:country_id
+[INFO] - [13-08-2025 15:20:59] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: billing:country_id
+[INFO] - [13-08-2025 15:21:03] [main] [utils.actions.ElementsActions] - Select the item with index : 231
+[INFO] - [13-08-2025 15:21:03] [main] [utils.actions.Waits] - Waiting the element to be clickable By.id: billing:use_for_shipping_yes
+[INFO] - [13-08-2025 15:21:03] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: billing:use_for_shipping_yes
+[INFO] - [13-08-2025 15:21:03] [main] [utils.actions.Waits] - Waiting the element to be present By.id: billing:use_for_shipping_yes
+[INFO] - [13-08-2025 15:21:03] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: billing:use_for_shipping_yes
+[INFO] - [13-08-2025 15:21:03] [main] [utils.actions.ElementsActions] - Clicking on element: By.id: billing:use_for_shipping_yes
+[INFO] - [13-08-2025 15:21:03] [main] [utils.actions.Waits] - Waiting the element to be clickable By.xpath: //*[@id="billing-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:03] [main] [utils.actions.Waits] - Waiting the element to be visible By.xpath: //*[@id="billing-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:03] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id="billing-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:03] [main] [utils.actions.Scrolling] - Scrolling to the element: By.xpath: //*[@id="billing-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:03] [main] [utils.actions.ElementsActions] - Clicking on element: By.xpath: //*[@id="billing-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:03] [main] [utils.actions.Waits] - Waiting the element to be clickable By.xpath: //*[@id="shipping-method-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:03] [main] [utils.actions.Waits] - Waiting the element to be visible By.xpath: //*[@id="shipping-method-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:03] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id="shipping-method-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:04] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id="shipping-method-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:04] [main] [utils.actions.Scrolling] - Scrolling to the element: By.xpath: //*[@id="shipping-method-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:04] [main] [utils.actions.ElementsActions] - Clicking on element: By.xpath: //*[@id="shipping-method-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:04] [main] [utils.actions.Waits] - Waiting the element to be clickable By.xpath: //*[@id="payment-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:04] [main] [utils.actions.Waits] - Waiting the element to be visible By.xpath: //*[@id="payment-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:04] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id="payment-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:04] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id="payment-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:04] [main] [utils.actions.Scrolling] - Scrolling to the element: By.xpath: //*[@id="payment-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:04] [main] [utils.actions.ElementsActions] - Clicking on element: By.xpath: //*[@id="payment-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:04] [main] [utils.actions.Waits] - Waiting the element to be clickable By.xpath: //*[@id="review-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:04] [main] [utils.actions.Waits] - Waiting the element to be visible By.xpath: //*[@id="review-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:04] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id="review-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:05] [main] [utils.actions.Scrolling] - Scrolling to the element: By.xpath: //*[@id="review-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:05] [main] [utils.actions.ElementsActions] - Clicking on element: By.xpath: //*[@id="review-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:05] [main] [utils.report.AllureUtils] - Screenshot attached to Allure report
+[INFO] - [13-08-2025 15:21:05] [main] [utils.report.AllureUtils] - Logs attached to Allure report
+[INFO] - [13-08-2025 15:21:05] [main] [listeners.TestNGListeners] - Test passed :E2EUsingSearch
+[INFO] - [13-08-2025 15:21:06] [main] [utils.actions.BrowserActions] - Driver down
+[INFO] - [13-08-2025 15:21:08] [main] [drivers.DriverManager] - Driver created on: Edge
+[INFO] - [13-08-2025 15:21:09] [main] [utils.actions.BrowserActions] - Navigate to URL:https://demo.mahocommerce.com/
+[INFO] - [13-08-2025 15:21:09] [main] [utils.actions.BrowserActions] - Page title:Madison Island
+[INFO] - [13-08-2025 15:21:09] [main] [utils.actions.BrowserActions] - Current URL:https://demo.mahocommerce.com/
+[INFO] - [13-08-2025 15:21:09] [main] [utils.actions.Waits] - Waiting the element to be visible By.xpath: //*[@id="nav"]/ol/li[2]/a
+[INFO] - [13-08-2025 15:21:09] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id="nav"]/ol/li[2]/a
+[INFO] - [13-08-2025 15:21:09] [main] [utils.actions.ElementsActions] - Hover on element: By.xpath: //*[@id="nav"]/ol/li[2]/a
+[INFO] - [13-08-2025 15:21:10] [main] [utils.actions.ElementsActions] - Hover and click on element: By.xpath: //*[@id="nav"]/ol/li[2]/ul/li[3]/a
+[INFO] - [13-08-2025 15:21:10] [main] [utils.actions.Waits] - Waiting the element to be clickable By.xpath: //*[@id='narrow-by-list']/dd[2]/ol/li[6]/a/img
+[INFO] - [13-08-2025 15:21:10] [main] [utils.actions.Waits] - Waiting the element to be visible By.xpath: //*[@id='narrow-by-list']/dd[2]/ol/li[6]/a/img
+[INFO] - [13-08-2025 15:21:10] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id='narrow-by-list']/dd[2]/ol/li[6]/a/img
+[INFO] - [13-08-2025 15:21:10] [main] [utils.actions.Scrolling] - Scrolling to the element: By.xpath: //*[@id='narrow-by-list']/dd[2]/ol/li[6]/a/img
+[INFO] - [13-08-2025 15:21:11] [main] [utils.actions.ElementsActions] - Clicking on element: By.xpath: //*[@id='narrow-by-list']/dd[2]/ol/li[6]/a/img
+[INFO] - [13-08-2025 15:21:11] [main] [utils.actions.Waits] - Waiting the element to be clickable By.cssSelector: a[title='French Cuff Cotton Twill Oxford']
+[INFO] - [13-08-2025 15:21:11] [main] [utils.actions.Waits] - Waiting the element to be visible By.cssSelector: a[title='French Cuff Cotton Twill Oxford']
+[INFO] - [13-08-2025 15:21:11] [main] [utils.actions.Waits] - Waiting the element to be present By.cssSelector: a[title='French Cuff Cotton Twill Oxford']
+[INFO] - [13-08-2025 15:21:11] [main] [utils.actions.Scrolling] - Scrolling to the element: By.cssSelector: a[title='French Cuff Cotton Twill Oxford']
+[INFO] - [13-08-2025 15:21:12] [main] [utils.actions.ElementsActions] - Clicking on element: By.cssSelector: a[title='French Cuff Cotton Twill Oxford']
+[INFO] - [13-08-2025 15:21:12] [main] [utils.actions.Waits] - Waiting the element to be clickable By.id: option79
+[INFO] - [13-08-2025 15:21:12] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: option79
+[INFO] - [13-08-2025 15:21:12] [main] [utils.actions.Waits] - Waiting the element to be present By.id: option79
+[INFO] - [13-08-2025 15:21:12] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: option79
+[INFO] - [13-08-2025 15:21:12] [main] [utils.actions.ElementsActions] - Clicking on element: By.id: option79
+[INFO] - [13-08-2025 15:21:12] [main] [utils.actions.Waits] - Waiting the element to be clickable By.id: swatch22
+[INFO] - [13-08-2025 15:21:12] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: swatch22
+[INFO] - [13-08-2025 15:21:12] [main] [utils.actions.Waits] - Waiting the element to be present By.id: swatch22
+[INFO] - [13-08-2025 15:21:12] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: swatch22
+[INFO] - [13-08-2025 15:21:12] [main] [utils.actions.ElementsActions] - Clicking on element: By.id: swatch22
+[INFO] - [13-08-2025 15:21:12] [main] [utils.actions.Waits] - Waiting the element to be clickable By.cssSelector: button[title='Add to Cart']
+[INFO] - [13-08-2025 15:21:12] [main] [utils.actions.Waits] - Waiting the element to be visible By.cssSelector: button[title='Add to Cart']
+[INFO] - [13-08-2025 15:21:12] [main] [utils.actions.Waits] - Waiting the element to be present By.cssSelector: button[title='Add to Cart']
+[INFO] - [13-08-2025 15:21:12] [main] [utils.actions.Scrolling] - Scrolling to the element: By.cssSelector: button[title='Add to Cart']
+[INFO] - [13-08-2025 15:21:12] [main] [utils.actions.ElementsActions] - Clicking on element: By.cssSelector: button[title='Add to Cart']
+[INFO] - [13-08-2025 15:21:12] [main] [utils.actions.Waits] - Waiting the element to be visible By.cssSelector: input[title='Qty']
+[INFO] - [13-08-2025 15:21:12] [main] [utils.actions.Waits] - Waiting the element to be present By.cssSelector: input[title='Qty']
+[INFO] - [13-08-2025 15:21:13] [main] [utils.actions.Scrolling] - Scrolling to the element: By.cssSelector: input[title='Qty']
+[INFO] - [13-08-2025 15:21:13] [main] [utils.actions.ElementsActions] - Data entered: 100' into By.cssSelector: input[title='Qty']
+[INFO] - [13-08-2025 15:21:13] [main] [utils.actions.Waits] - Waiting the element to be clickable By.cssSelector: input[title='Qty']
+[INFO] - [13-08-2025 15:21:13] [main] [utils.actions.Waits] - Waiting the element to be visible By.cssSelector: input[title='Qty']
+[INFO] - [13-08-2025 15:21:13] [main] [utils.actions.Waits] - Waiting the element to be present By.cssSelector: input[title='Qty']
+[INFO] - [13-08-2025 15:21:13] [main] [utils.actions.Scrolling] - Scrolling to the element: By.cssSelector: input[title='Qty']
+[INFO] - [13-08-2025 15:21:13] [main] [utils.actions.ElementsActions] - Clicking on element: By.cssSelector: input[title='Qty']
+[INFO] - [13-08-2025 15:21:13] [main] [utils.actions.Waits] - Waiting the element to be clickable By.xpath: //*[@id="shopping-cart-table"]/tbody/tr/td[4]/button
+[INFO] - [13-08-2025 15:21:13] [main] [utils.actions.Waits] - Waiting the element to be visible By.xpath: //*[@id="shopping-cart-table"]/tbody/tr/td[4]/button
+[INFO] - [13-08-2025 15:21:13] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id="shopping-cart-table"]/tbody/tr/td[4]/button
+[INFO] - [13-08-2025 15:21:13] [main] [utils.actions.Scrolling] - Scrolling to the element: By.xpath: //*[@id="shopping-cart-table"]/tbody/tr/td[4]/button
+[INFO] - [13-08-2025 15:21:13] [main] [utils.actions.ElementsActions] - Clicking on element: By.xpath: //*[@id="shopping-cart-table"]/tbody/tr/td[4]/button
+[INFO] - [13-08-2025 15:21:13] [main] [utils.actions.Waits] - Waiting the element to be visible By.cssSelector: li.error-msg
+[INFO] - [13-08-2025 15:21:13] [main] [utils.actions.Waits] - Waiting the element to be present By.cssSelector: li.error-msg
+[INFO] - [13-08-2025 15:21:13] [main] [utils.actions.Scrolling] - Scrolling to the element: By.cssSelector: li.error-msg
+[INFO] - [13-08-2025 15:21:13] [main] [utils.actions.ElementsActions] - Getting the text from the By.cssSelector: li.error-msg Text: The requested quantity for "French Cuff Cotton Twill Oxford" is not available.
+[INFO] - [13-08-2025 15:21:13] [main] [utils.actions.Waits] - Waiting the element to be visible By.xpath: //*[@id="shopping-cart-table"]/tbody/tr[1]/td[5]/span/span
+[INFO] - [13-08-2025 15:21:13] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id="shopping-cart-table"]/tbody/tr[1]/td[5]/span/span
+[INFO] - [13-08-2025 15:21:13] [main] [utils.actions.Scrolling] - Scrolling to the element: By.xpath: //*[@id="shopping-cart-table"]/tbody/tr[1]/td[5]/span/span
+[INFO] - [13-08-2025 15:21:14] [main] [utils.actions.ElementsActions] - Getting the text from the By.xpath: //*[@id="shopping-cart-table"]/tbody/tr[1]/td[5]/span/span Text: $19,000.00
+[INFO] - [13-08-2025 15:21:14] [main] [pages.P8_ShoppingCartPage] - The expected price :19,000.00is not as actual19,000.00
+[INFO] - [13-08-2025 15:21:14] [main] [utils.actions.Waits] - Waiting the element to be clickable By.cssSelector: a[title='Remove Item']
+[INFO] - [13-08-2025 15:21:14] [main] [utils.actions.Waits] - Waiting the element to be visible By.cssSelector: a[title='Remove Item']
+[INFO] - [13-08-2025 15:21:14] [main] [utils.actions.Waits] - Waiting the element to be present By.cssSelector: a[title='Remove Item']
+[INFO] - [13-08-2025 15:21:14] [main] [utils.actions.Scrolling] - Scrolling to the element: By.cssSelector: a[title='Remove Item']
+[INFO] - [13-08-2025 15:21:14] [main] [utils.actions.ElementsActions] - Clicking on element: By.cssSelector: a[title='Remove Item']
+[INFO] - [13-08-2025 15:21:14] [main] [utils.actions.Waits] - Waiting the element to be clickable By.cssSelector: a.logo
+[INFO] - [13-08-2025 15:21:14] [main] [utils.actions.Waits] - Waiting the element to be visible By.cssSelector: a.logo
+[INFO] - [13-08-2025 15:21:14] [main] [utils.actions.Waits] - Waiting the element to be present By.cssSelector: a.logo
+[INFO] - [13-08-2025 15:21:14] [main] [utils.actions.Scrolling] - Scrolling to the element: By.cssSelector: a.logo
+[INFO] - [13-08-2025 15:21:14] [main] [utils.actions.ElementsActions] - Clicking on element: By.cssSelector: a.logo
+[INFO] - [13-08-2025 15:21:14] [main] [utils.actions.Waits] - Waiting the element to be visible By.xpath: //*[@id="nav"]/ol/li[4]
+[INFO] - [13-08-2025 15:21:14] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id="nav"]/ol/li[4]
+[INFO] - [13-08-2025 15:21:15] [main] [utils.actions.ElementsActions] - Hover on element: By.xpath: //*[@id="nav"]/ol/li[4]
+[INFO] - [13-08-2025 15:21:16] [main] [utils.actions.ElementsActions] - Hover and click on element: By.xpath: //*[@id="nav"]/ol/li[4]/ul/li[3]/a
+[INFO] - [13-08-2025 15:21:16] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: toolbar-sortby
+[INFO] - [13-08-2025 15:21:16] [main] [utils.actions.Waits] - Waiting the element to be present By.id: toolbar-sortby
+[INFO] - [13-08-2025 15:21:16] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: toolbar-sortby
+[INFO] - [13-08-2025 15:21:16] [main] [utils.actions.ElementsActions] - Select the item with index : 2
+[INFO] - [13-08-2025 15:21:16] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: toolbar-sortby
+[INFO] - [13-08-2025 15:21:16] [main] [utils.actions.Waits] - Waiting the element to be present By.id: toolbar-sortby
+[INFO] - [13-08-2025 15:21:16] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: toolbar-sortby
+[INFO] - [13-08-2025 15:21:16] [main] [utils.actions.ElementsActions] - Select the item with index : 1
+[INFO] - [13-08-2025 15:21:16] [main] [utils.actions.Waits] - Waiting the element to be clickable By.id: product-collection-image-384
+[INFO] - [13-08-2025 15:21:16] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: product-collection-image-384
+[INFO] - [13-08-2025 15:21:16] [main] [utils.actions.Waits] - Waiting the element to be present By.id: product-collection-image-384
+[INFO] - [13-08-2025 15:21:16] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: product-collection-image-384
+[INFO] - [13-08-2025 15:21:17] [main] [utils.actions.ElementsActions] - Clicking on element: By.id: product-collection-image-384
+[INFO] - [13-08-2025 15:21:17] [main] [utils.actions.Waits] - Waiting the element to be clickable By.cssSelector: button[title='Add to Cart']
+[INFO] - [13-08-2025 15:21:17] [main] [utils.actions.Waits] - Waiting the element to be visible By.cssSelector: button[title='Add to Cart']
+[INFO] - [13-08-2025 15:21:17] [main] [utils.actions.Waits] - Waiting the element to be present By.cssSelector: button[title='Add to Cart']
+[INFO] - [13-08-2025 15:21:17] [main] [utils.actions.Scrolling] - Scrolling to the element: By.cssSelector: button[title='Add to Cart']
+[INFO] - [13-08-2025 15:21:18] [main] [utils.actions.ElementsActions] - Clicking on element: By.cssSelector: button[title='Add to Cart']
+[INFO] - [13-08-2025 15:21:18] [main] [utils.actions.Waits] - Waiting the element to be visible By.xpath: //*[@id="shopping-cart-table"]/tbody/tr[1]/td[5]/span/span
+[INFO] - [13-08-2025 15:21:18] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id="shopping-cart-table"]/tbody/tr[1]/td[5]/span/span
+[INFO] - [13-08-2025 15:21:18] [main] [utils.actions.Scrolling] - Scrolling to the element: By.xpath: //*[@id="shopping-cart-table"]/tbody/tr[1]/td[5]/span/span
+[INFO] - [13-08-2025 15:21:18] [main] [utils.actions.ElementsActions] - Getting the text from the By.xpath: //*[@id="shopping-cart-table"]/tbody/tr[1]/td[5]/span/span Text: $120.00
+[INFO] - [13-08-2025 15:21:18] [main] [pages.P8_ShoppingCartPage] - The expected price :120.00is not as actual120.00
+[INFO] - [13-08-2025 15:21:18] [main] [utils.actions.Waits] - Waiting the element to be clickable By.xpath: //*[@id='main-content']/div/div[1]/ul/li/button
+[INFO] - [13-08-2025 15:21:18] [main] [utils.actions.Waits] - Waiting the element to be visible By.xpath: //*[@id='main-content']/div/div[1]/ul/li/button
+[INFO] - [13-08-2025 15:21:18] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id='main-content']/div/div[1]/ul/li/button
+[INFO] - [13-08-2025 15:21:18] [main] [utils.actions.Scrolling] - Scrolling to the element: By.xpath: //*[@id='main-content']/div/div[1]/ul/li/button
+[INFO] - [13-08-2025 15:21:19] [main] [utils.actions.ElementsActions] - Clicking on element: By.xpath: //*[@id='main-content']/div/div[1]/ul/li/button
+[INFO] - [13-08-2025 15:21:19] [main] [utils.actions.Waits] - Waiting the element to be clickable By.id: login:guest
+[INFO] - [13-08-2025 15:21:19] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: login:guest
+[INFO] - [13-08-2025 15:21:19] [main] [utils.actions.Waits] - Waiting the element to be present By.id: login:guest
+[INFO] - [13-08-2025 15:21:19] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: login:guest
+[INFO] - [13-08-2025 15:21:19] [main] [utils.actions.ElementsActions] - Clicking on element: By.id: login:guest
+[INFO] - [13-08-2025 15:21:19] [main] [utils.actions.Waits] - Waiting the element to be clickable By.id: onepage-guest-register-button
+[INFO] - [13-08-2025 15:21:19] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: onepage-guest-register-button
+[INFO] - [13-08-2025 15:21:19] [main] [utils.actions.Waits] - Waiting the element to be present By.id: onepage-guest-register-button
+[INFO] - [13-08-2025 15:21:19] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: onepage-guest-register-button
+[INFO] - [13-08-2025 15:21:19] [main] [utils.actions.ElementsActions] - Clicking on element: By.id: onepage-guest-register-button
+[INFO] - [13-08-2025 15:21:19] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: billing:firstname
+[INFO] - [13-08-2025 15:21:19] [main] [utils.actions.Waits] - Waiting the element to be present By.id: billing:firstname
+[INFO] - [13-08-2025 15:21:19] [main] [utils.actions.Waits] - Waiting the element to be present By.id: billing:firstname
+[INFO] - [13-08-2025 15:21:19] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: billing:firstname
+[INFO] - [13-08-2025 15:21:19] [main] [utils.actions.ElementsActions] - Data entered: Abdo' into By.id: billing:firstname
+[INFO] - [13-08-2025 15:21:19] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: billing:lastname
+[INFO] - [13-08-2025 15:21:19] [main] [utils.actions.Waits] - Waiting the element to be present By.id: billing:lastname
+[INFO] - [13-08-2025 15:21:19] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: billing:lastname
+[INFO] - [13-08-2025 15:21:20] [main] [utils.actions.ElementsActions] - Data entered: Wahid' into By.id: billing:lastname
+[INFO] - [13-08-2025 15:21:20] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: billing:email
+[INFO] - [13-08-2025 15:21:20] [main] [utils.actions.Waits] - Waiting the element to be present By.id: billing:email
+[INFO] - [13-08-2025 15:21:20] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: billing:email
+[INFO] - [13-08-2025 15:21:20] [main] [utils.actions.ElementsActions] - Data entered: abdo@we.com' into By.id: billing:email
+[INFO] - [13-08-2025 15:21:20] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: billing:street1
+[INFO] - [13-08-2025 15:21:20] [main] [utils.actions.Waits] - Waiting the element to be present By.id: billing:street1
+[INFO] - [13-08-2025 15:21:20] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: billing:street1
+[INFO] - [13-08-2025 15:21:20] [main] [utils.actions.ElementsActions] - Data entered: Cairo' into By.id: billing:street1
+[INFO] - [13-08-2025 15:21:20] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: billing:city
+[INFO] - [13-08-2025 15:21:20] [main] [utils.actions.Waits] - Waiting the element to be present By.id: billing:city
+[INFO] - [13-08-2025 15:21:20] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: billing:city
+[INFO] - [13-08-2025 15:21:21] [main] [utils.actions.ElementsActions] - Data entered: Giza' into By.id: billing:city
+[INFO] - [13-08-2025 15:21:21] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: billing:postcode
+[INFO] - [13-08-2025 15:21:21] [main] [utils.actions.Waits] - Waiting the element to be present By.id: billing:postcode
+[INFO] - [13-08-2025 15:21:21] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: billing:postcode
+[INFO] - [13-08-2025 15:21:21] [main] [utils.actions.ElementsActions] - Data entered: 112233' into By.id: billing:postcode
+[INFO] - [13-08-2025 15:21:21] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: billing:telephone
+[INFO] - [13-08-2025 15:21:21] [main] [utils.actions.Waits] - Waiting the element to be present By.id: billing:telephone
+[INFO] - [13-08-2025 15:21:21] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: billing:telephone
+[INFO] - [13-08-2025 15:21:21] [main] [utils.actions.ElementsActions] - Data entered: 333396' into By.id: billing:telephone
+[INFO] - [13-08-2025 15:21:21] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: billing:region_id
+[INFO] - [13-08-2025 15:21:21] [main] [utils.actions.Waits] - Waiting the element to be present By.id: billing:region_id
+[INFO] - [13-08-2025 15:21:21] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: billing:region_id
+[INFO] - [13-08-2025 15:21:21] [main] [utils.actions.ElementsActions] - Select the item with index : 5
+[INFO] - [13-08-2025 15:21:21] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: billing:country_id
+[INFO] - [13-08-2025 15:21:21] [main] [utils.actions.Waits] - Waiting the element to be present By.id: billing:country_id
+[INFO] - [13-08-2025 15:21:22] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: billing:country_id
+[INFO] - [13-08-2025 15:21:24] [main] [utils.actions.ElementsActions] - Select the item with index : 231
+[INFO] - [13-08-2025 15:21:24] [main] [utils.actions.Waits] - Waiting the element to be clickable By.id: billing:use_for_shipping_yes
+[INFO] - [13-08-2025 15:21:24] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: billing:use_for_shipping_yes
+[INFO] - [13-08-2025 15:21:24] [main] [utils.actions.Waits] - Waiting the element to be present By.id: billing:use_for_shipping_yes
+[INFO] - [13-08-2025 15:21:24] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: billing:use_for_shipping_yes
+[INFO] - [13-08-2025 15:21:24] [main] [utils.actions.ElementsActions] - Clicking on element: By.id: billing:use_for_shipping_yes
+[INFO] - [13-08-2025 15:21:24] [main] [utils.actions.Waits] - Waiting the element to be clickable By.xpath: //*[@id="billing-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:24] [main] [utils.actions.Waits] - Waiting the element to be visible By.xpath: //*[@id="billing-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:24] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id="billing-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:24] [main] [utils.actions.Scrolling] - Scrolling to the element: By.xpath: //*[@id="billing-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:24] [main] [utils.actions.ElementsActions] - Clicking on element: By.xpath: //*[@id="billing-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:24] [main] [utils.actions.Waits] - Waiting the element to be clickable By.xpath: //*[@id="shipping-method-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:24] [main] [utils.actions.Waits] - Waiting the element to be visible By.xpath: //*[@id="shipping-method-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:24] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id="shipping-method-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:25] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id="shipping-method-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:25] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id="shipping-method-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:25] [main] [utils.actions.Scrolling] - Scrolling to the element: By.xpath: //*[@id="shipping-method-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:26] [main] [utils.actions.ElementsActions] - Clicking on element: By.xpath: //*[@id="shipping-method-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:26] [main] [utils.actions.Waits] - Waiting the element to be clickable By.xpath: //*[@id="payment-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:26] [main] [utils.actions.Waits] - Waiting the element to be visible By.xpath: //*[@id="payment-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:26] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id="payment-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:26] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id="payment-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:26] [main] [utils.actions.Scrolling] - Scrolling to the element: By.xpath: //*[@id="payment-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:26] [main] [utils.actions.ElementsActions] - Clicking on element: By.xpath: //*[@id="payment-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:26] [main] [utils.actions.Waits] - Waiting the element to be clickable By.xpath: //*[@id="review-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:26] [main] [utils.actions.Waits] - Waiting the element to be visible By.xpath: //*[@id="review-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:26] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id="review-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:27] [main] [utils.actions.Scrolling] - Scrolling to the element: By.xpath: //*[@id="review-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:27] [main] [utils.actions.ElementsActions] - Clicking on element: By.xpath: //*[@id="review-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:27] [main] [utils.report.AllureUtils] - Screenshot attached to Allure report
+[INFO] - [13-08-2025 15:21:27] [main] [utils.report.AllureUtils] - Logs attached to Allure report
+[INFO] - [13-08-2025 15:21:27] [main] [listeners.TestNGListeners] - Test passed :E2eGetProductFromCategories
+[INFO] - [13-08-2025 15:21:27] [main] [utils.actions.BrowserActions] - Driver down
+[INFO] - [13-08-2025 15:21:31] [main] [drivers.DriverManager] - Driver created on: Edge
+[INFO] - [13-08-2025 15:21:32] [main] [utils.actions.BrowserActions] - Navigate to URL:https://demo.mahocommerce.com/
+[INFO] - [13-08-2025 15:21:32] [main] [utils.actions.BrowserActions] - Page title:Madison Island
+[INFO] - [13-08-2025 15:21:32] [main] [utils.actions.BrowserActions] - Current URL:https://demo.mahocommerce.com/
+[INFO] - [13-08-2025 15:21:32] [main] [utils.actions.Waits] - Waiting the element to be clickable By.xpath: //*[@id='header']/div[1]/div[2]/div[2]/a/span[1]
+[INFO] - [13-08-2025 15:21:32] [main] [utils.actions.Waits] - Waiting the element to be visible By.xpath: //*[@id='header']/div[1]/div[2]/div[2]/a/span[1]
+[INFO] - [13-08-2025 15:21:32] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id='header']/div[1]/div[2]/div[2]/a/span[1]
+[INFO] - [13-08-2025 15:21:32] [main] [utils.actions.Scrolling] - Scrolling to the element: By.xpath: //*[@id='header']/div[1]/div[2]/div[2]/a/span[1]
+[INFO] - [13-08-2025 15:21:32] [main] [utils.actions.ElementsActions] - Clicking on element: By.xpath: //*[@id='header']/div[1]/div[2]/div[2]/a/span[1]
+[INFO] - [13-08-2025 15:21:32] [main] [utils.actions.Waits] - Waiting the element to be visible By.cssSelector: div.offcanvas-title
+[INFO] - [13-08-2025 15:21:32] [main] [utils.actions.Waits] - Waiting the element to be present By.cssSelector: div.offcanvas-title
+[INFO] - [13-08-2025 15:21:33] [main] [utils.actions.Waits] - Waiting the element to be present By.cssSelector: div.offcanvas-title
+[INFO] - [13-08-2025 15:21:33] [main] [utils.actions.Scrolling] - Scrolling to the element: By.cssSelector: div.offcanvas-title
+[INFO] - [13-08-2025 15:21:33] [main] [utils.actions.ElementsActions] - Getting the text from the By.cssSelector: div.offcanvas-title Text: SHOPPING CART
+[INFO] - [13-08-2025 15:21:33] [main] [utils.actions.Waits] - Waiting the element to be visible By.cssSelector: p.empty
+[INFO] - [13-08-2025 15:21:33] [main] [utils.actions.Waits] - Waiting the element to be present By.cssSelector: p.empty
+[INFO] - [13-08-2025 15:21:33] [main] [utils.actions.Scrolling] - Scrolling to the element: By.cssSelector: p.empty
+[INFO] - [13-08-2025 15:21:33] [main] [utils.actions.ElementsActions] - Getting the text from the By.cssSelector: p.empty Text: You have no items in your shopping cart.
+[INFO] - [13-08-2025 15:21:33] [main] [utils.actions.Waits] - Waiting the element to be clickable By.cssSelector: button.offcanvas-close
+[INFO] - [13-08-2025 15:21:33] [main] [utils.actions.Waits] - Waiting the element to be visible By.cssSelector: button.offcanvas-close
+[INFO] - [13-08-2025 15:21:33] [main] [utils.actions.Waits] - Waiting the element to be present By.cssSelector: button.offcanvas-close
+[INFO] - [13-08-2025 15:21:33] [main] [utils.actions.Scrolling] - Scrolling to the element: By.cssSelector: button.offcanvas-close
+[INFO] - [13-08-2025 15:21:33] [main] [utils.actions.ElementsActions] - Clicking on element: By.cssSelector: button.offcanvas-close
+[INFO] - [13-08-2025 15:21:33] [main] [utils.actions.BrowserActions] - Page title:Madison Island
+[INFO] - [13-08-2025 15:21:33] [main] [utils.actions.BrowserActions] - Current URL:https://demo.mahocommerce.com/
+[INFO] - [13-08-2025 15:21:33] [main] [utils.actions.Waits] - Waiting the element to be clickable By.cssSelector: a[title='Linen Blazer']
+[INFO] - [13-08-2025 15:21:33] [main] [utils.actions.Waits] - Waiting the element to be visible By.cssSelector: a[title='Linen Blazer']
+[INFO] - [13-08-2025 15:21:33] [main] [utils.actions.Waits] - Waiting the element to be present By.cssSelector: a[title='Linen Blazer']
+[INFO] - [13-08-2025 15:21:33] [main] [utils.actions.Scrolling] - Scrolling to the element: By.cssSelector: a[title='Linen Blazer']
+[INFO] - [13-08-2025 15:21:34] [main] [utils.actions.ElementsActions] - Clicking on element: By.cssSelector: a[title='Linen Blazer']
+[INFO] - [13-08-2025 15:21:34] [main] [utils.actions.Waits] - Waiting the element to be clickable By.id: swatch77
+[INFO] - [13-08-2025 15:21:34] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: swatch77
+[INFO] - [13-08-2025 15:21:34] [main] [utils.actions.Waits] - Waiting the element to be present By.id: swatch77
+[INFO] - [13-08-2025 15:21:34] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: swatch77
+[INFO] - [13-08-2025 15:21:34] [main] [utils.actions.ElementsActions] - Clicking on element: By.id: swatch77
+[INFO] - [13-08-2025 15:21:34] [main] [utils.actions.Waits] - Waiting the element to be clickable By.id: swatch22
+[INFO] - [13-08-2025 15:21:34] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: swatch22
+[INFO] - [13-08-2025 15:21:34] [main] [utils.actions.Waits] - Waiting the element to be present By.id: swatch22
+[INFO] - [13-08-2025 15:21:34] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: swatch22
+[INFO] - [13-08-2025 15:21:34] [main] [utils.actions.ElementsActions] - Clicking on element: By.id: swatch22
+[INFO] - [13-08-2025 15:21:34] [main] [utils.actions.Waits] - Waiting the element to be clickable By.cssSelector: button[title='Add to Cart']
+[INFO] - [13-08-2025 15:21:34] [main] [utils.actions.Waits] - Waiting the element to be visible By.cssSelector: button[title='Add to Cart']
+[INFO] - [13-08-2025 15:21:34] [main] [utils.actions.Waits] - Waiting the element to be present By.cssSelector: button[title='Add to Cart']
+[INFO] - [13-08-2025 15:21:34] [main] [utils.actions.Scrolling] - Scrolling to the element: By.cssSelector: button[title='Add to Cart']
+[INFO] - [13-08-2025 15:21:34] [main] [utils.actions.ElementsActions] - Clicking on element: By.cssSelector: button[title='Add to Cart']
+[INFO] - [13-08-2025 15:21:34] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: search
+[INFO] - [13-08-2025 15:21:34] [main] [utils.actions.Waits] - Waiting the element to be present By.id: search
+[INFO] - [13-08-2025 15:21:35] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: search
+[INFO] - [13-08-2025 15:21:35] [main] [utils.actions.ElementsActions] - Data entered: rx3' into By.id: search
+[INFO] - [13-08-2025 15:21:35] [main] [utils.actions.Waits] - Waiting the element to be visible By.cssSelector: #products-list > li
+[INFO] - [13-08-2025 15:21:35] [main] [utils.actions.Waits] - Waiting the element to be present By.cssSelector: #products-list > li
+[INFO] - [13-08-2025 15:21:35] [main] [utils.actions.Waits] - Waiting the element to be clickable By.cssSelector: #products-list > li
+[INFO] - [13-08-2025 15:21:35] [main] [utils.actions.Waits] - Waiting the element to be visible By.cssSelector: #products-list > li
+[INFO] - [13-08-2025 15:21:35] [main] [utils.actions.Waits] - Waiting the element to be present By.cssSelector: #products-list > li
+[INFO] - [13-08-2025 15:21:36] [main] [utils.actions.Waits] - Waiting the element to be clickable By.cssSelector: button[title='Add to Cart']
+[INFO] - [13-08-2025 15:21:36] [main] [utils.actions.Waits] - Waiting the element to be visible By.cssSelector: button[title='Add to Cart']
+[INFO] - [13-08-2025 15:21:36] [main] [utils.actions.Waits] - Waiting the element to be present By.cssSelector: button[title='Add to Cart']
+[INFO] - [13-08-2025 15:21:36] [main] [utils.actions.Scrolling] - Scrolling to the element: By.cssSelector: button[title='Add to Cart']
+[INFO] - [13-08-2025 15:21:37] [main] [utils.actions.ElementsActions] - Clicking on element: By.cssSelector: button[title='Add to Cart']
+[INFO] - [13-08-2025 15:21:37] [main] [utils.actions.BrowserActions] - Navigate to URL:https://demo.mahocommerce.com/
+[INFO] - [13-08-2025 15:21:37] [main] [utils.actions.Waits] - Waiting the element to be clickable By.xpath: //*[@id='header']/div[1]/div[2]/div[2]/a/span[1]
+[INFO] - [13-08-2025 15:21:37] [main] [utils.actions.Waits] - Waiting the element to be visible By.xpath: //*[@id='header']/div[1]/div[2]/div[2]/a/span[1]
+[INFO] - [13-08-2025 15:21:37] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id='header']/div[1]/div[2]/div[2]/a/span[1]
+[INFO] - [13-08-2025 15:21:37] [main] [utils.actions.Scrolling] - Scrolling to the element: By.xpath: //*[@id='header']/div[1]/div[2]/div[2]/a/span[1]
+[INFO] - [13-08-2025 15:21:37] [main] [utils.actions.ElementsActions] - Clicking on element: By.xpath: //*[@id='header']/div[1]/div[2]/div[2]/a/span[1]
+[INFO] - [13-08-2025 15:21:37] [main] [utils.actions.Waits] - Waiting the element to be visible By.cssSelector: input.qty
+[INFO] - [13-08-2025 15:21:37] [main] [utils.actions.Waits] - Waiting the element to be present By.cssSelector: input.qty
+[INFO] - [13-08-2025 15:21:38] [main] [utils.actions.Waits] - Waiting the element to be present By.cssSelector: input.qty
+[INFO] - [13-08-2025 15:21:38] [main] [utils.actions.Scrolling] - Scrolling to the element: By.cssSelector: input.qty
+[INFO] - [13-08-2025 15:21:38] [main] [utils.actions.ElementsActions] - Data entered: 3' into By.cssSelector: input.qty
+[INFO] - [13-08-2025 15:21:38] [main] [utils.actions.Waits] - Waiting the element to be clickable By.cssSelector: input.qty
+[INFO] - [13-08-2025 15:21:38] [main] [utils.actions.Waits] - Waiting the element to be visible By.cssSelector: input.qty
+[INFO] - [13-08-2025 15:21:38] [main] [utils.actions.Waits] - Waiting the element to be present By.cssSelector: input.qty
+[INFO] - [13-08-2025 15:21:38] [main] [utils.actions.Scrolling] - Scrolling to the element: By.cssSelector: input.qty
+[INFO] - [13-08-2025 15:21:38] [main] [utils.actions.ElementsActions] - Clicking on element: By.cssSelector: input.qty
+[INFO] - [13-08-2025 15:21:38] [main] [utils.actions.Waits] - Waiting the element to be clickable By.cssSelector: a.remove
+[INFO] - [13-08-2025 15:21:38] [main] [utils.actions.Waits] - Waiting the element to be visible By.cssSelector: a.remove
+[INFO] - [13-08-2025 15:21:38] [main] [utils.actions.Waits] - Waiting the element to be present By.cssSelector: a.remove
+[INFO] - [13-08-2025 15:21:38] [main] [utils.actions.Scrolling] - Scrolling to the element: By.cssSelector: a.remove
+[INFO] - [13-08-2025 15:21:38] [main] [utils.actions.ElementsActions] - Clicking on element: By.cssSelector: a.remove
+[INFO] - [13-08-2025 15:21:38] [main] [utils.actions.Waits] - Waiting the element to be clickable By.cssSelector: a.cart-link
+[INFO] - [13-08-2025 15:21:38] [main] [utils.actions.Waits] - Waiting the element to be visible By.cssSelector: a.cart-link
+[INFO] - [13-08-2025 15:21:38] [main] [utils.actions.Waits] - Waiting the element to be present By.cssSelector: a.cart-link
+[INFO] - [13-08-2025 15:21:38] [main] [utils.actions.Scrolling] - Scrolling to the element: By.cssSelector: a.cart-link
+[INFO] - [13-08-2025 15:21:38] [main] [utils.actions.ElementsActions] - Clicking on element: By.cssSelector: a.cart-link
+[INFO] - [13-08-2025 15:21:38] [main] [utils.actions.Waits] - Waiting the element to be visible By.cssSelector: input[title='Qty']
+[INFO] - [13-08-2025 15:21:38] [main] [utils.actions.Waits] - Waiting the element to be present By.cssSelector: input[title='Qty']
+[INFO] - [13-08-2025 15:21:38] [main] [utils.actions.Scrolling] - Scrolling to the element: By.cssSelector: input[title='Qty']
+[INFO] - [13-08-2025 15:21:38] [main] [utils.actions.ElementsActions] - Data entered: 5' into By.cssSelector: input[title='Qty']
+[INFO] - [13-08-2025 15:21:38] [main] [utils.actions.Waits] - Waiting the element to be clickable By.cssSelector: input[title='Qty']
+[INFO] - [13-08-2025 15:21:38] [main] [utils.actions.Waits] - Waiting the element to be visible By.cssSelector: input[title='Qty']
+[INFO] - [13-08-2025 15:21:38] [main] [utils.actions.Waits] - Waiting the element to be present By.cssSelector: input[title='Qty']
+[INFO] - [13-08-2025 15:21:39] [main] [utils.actions.Scrolling] - Scrolling to the element: By.cssSelector: input[title='Qty']
+[INFO] - [13-08-2025 15:21:39] [main] [utils.actions.ElementsActions] - Clicking on element: By.cssSelector: input[title='Qty']
+[INFO] - [13-08-2025 15:21:39] [main] [utils.actions.Waits] - Waiting the element to be clickable By.xpath: //*[@id='main-content']/div/div[1]/ul/li/button
+[INFO] - [13-08-2025 15:21:39] [main] [utils.actions.Waits] - Waiting the element to be visible By.xpath: //*[@id='main-content']/div/div[1]/ul/li/button
+[INFO] - [13-08-2025 15:21:39] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id='main-content']/div/div[1]/ul/li/button
+[INFO] - [13-08-2025 15:21:39] [main] [utils.actions.Scrolling] - Scrolling to the element: By.xpath: //*[@id='main-content']/div/div[1]/ul/li/button
+[INFO] - [13-08-2025 15:21:39] [main] [utils.actions.ElementsActions] - Clicking on element: By.xpath: //*[@id='main-content']/div/div[1]/ul/li/button
+[INFO] - [13-08-2025 15:21:39] [main] [utils.actions.Waits] - Waiting the element to be clickable By.id: login:guest
+[INFO] - [13-08-2025 15:21:39] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: login:guest
+[INFO] - [13-08-2025 15:21:39] [main] [utils.actions.Waits] - Waiting the element to be present By.id: login:guest
+[INFO] - [13-08-2025 15:21:39] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: login:guest
+[INFO] - [13-08-2025 15:21:39] [main] [utils.actions.ElementsActions] - Clicking on element: By.id: login:guest
+[INFO] - [13-08-2025 15:21:39] [main] [utils.actions.Waits] - Waiting the element to be clickable By.id: onepage-guest-register-button
+[INFO] - [13-08-2025 15:21:39] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: onepage-guest-register-button
+[INFO] - [13-08-2025 15:21:39] [main] [utils.actions.Waits] - Waiting the element to be present By.id: onepage-guest-register-button
+[INFO] - [13-08-2025 15:21:39] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: onepage-guest-register-button
+[INFO] - [13-08-2025 15:21:39] [main] [utils.actions.ElementsActions] - Clicking on element: By.id: onepage-guest-register-button
+[INFO] - [13-08-2025 15:21:39] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: billing:firstname
+[INFO] - [13-08-2025 15:21:39] [main] [utils.actions.Waits] - Waiting the element to be present By.id: billing:firstname
+[INFO] - [13-08-2025 15:21:40] [main] [utils.actions.Waits] - Waiting the element to be present By.id: billing:firstname
+[INFO] - [13-08-2025 15:21:40] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: billing:firstname
+[INFO] - [13-08-2025 15:21:40] [main] [utils.actions.ElementsActions] - Data entered: Abdo' into By.id: billing:firstname
+[INFO] - [13-08-2025 15:21:40] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: billing:lastname
+[INFO] - [13-08-2025 15:21:40] [main] [utils.actions.Waits] - Waiting the element to be present By.id: billing:lastname
+[INFO] - [13-08-2025 15:21:40] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: billing:lastname
+[INFO] - [13-08-2025 15:21:40] [main] [utils.actions.ElementsActions] - Data entered: Wahid' into By.id: billing:lastname
+[INFO] - [13-08-2025 15:21:40] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: billing:email
+[INFO] - [13-08-2025 15:21:40] [main] [utils.actions.Waits] - Waiting the element to be present By.id: billing:email
+[INFO] - [13-08-2025 15:21:40] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: billing:email
+[INFO] - [13-08-2025 15:21:40] [main] [utils.actions.ElementsActions] - Data entered: abdo@we.com' into By.id: billing:email
+[INFO] - [13-08-2025 15:21:40] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: billing:street1
+[INFO] - [13-08-2025 15:21:40] [main] [utils.actions.Waits] - Waiting the element to be present By.id: billing:street1
+[INFO] - [13-08-2025 15:21:40] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: billing:street1
+[INFO] - [13-08-2025 15:21:41] [main] [utils.actions.ElementsActions] - Data entered: Cairo' into By.id: billing:street1
+[INFO] - [13-08-2025 15:21:41] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: billing:city
+[INFO] - [13-08-2025 15:21:41] [main] [utils.actions.Waits] - Waiting the element to be present By.id: billing:city
+[INFO] - [13-08-2025 15:21:41] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: billing:city
+[INFO] - [13-08-2025 15:21:41] [main] [utils.actions.ElementsActions] - Data entered: Giza' into By.id: billing:city
+[INFO] - [13-08-2025 15:21:41] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: billing:postcode
+[INFO] - [13-08-2025 15:21:41] [main] [utils.actions.Waits] - Waiting the element to be present By.id: billing:postcode
+[INFO] - [13-08-2025 15:21:41] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: billing:postcode
+[INFO] - [13-08-2025 15:21:41] [main] [utils.actions.ElementsActions] - Data entered: 112233' into By.id: billing:postcode
+[INFO] - [13-08-2025 15:21:41] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: billing:telephone
+[INFO] - [13-08-2025 15:21:41] [main] [utils.actions.Waits] - Waiting the element to be present By.id: billing:telephone
+[INFO] - [13-08-2025 15:21:41] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: billing:telephone
+[INFO] - [13-08-2025 15:21:41] [main] [utils.actions.ElementsActions] - Data entered: 333396' into By.id: billing:telephone
+[INFO] - [13-08-2025 15:21:41] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: billing:region_id
+[INFO] - [13-08-2025 15:21:41] [main] [utils.actions.Waits] - Waiting the element to be present By.id: billing:region_id
+[INFO] - [13-08-2025 15:21:41] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: billing:region_id
+[INFO] - [13-08-2025 15:21:42] [main] [utils.actions.ElementsActions] - Select the item with index : 5
+[INFO] - [13-08-2025 15:21:42] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: billing:country_id
+[INFO] - [13-08-2025 15:21:42] [main] [utils.actions.Waits] - Waiting the element to be present By.id: billing:country_id
+[INFO] - [13-08-2025 15:21:42] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: billing:country_id
+[INFO] - [13-08-2025 15:21:44] [main] [utils.actions.ElementsActions] - Select the item with index : 231
+[INFO] - [13-08-2025 15:21:44] [main] [utils.actions.Waits] - Waiting the element to be clickable By.id: billing:use_for_shipping_yes
+[INFO] - [13-08-2025 15:21:44] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: billing:use_for_shipping_yes
+[INFO] - [13-08-2025 15:21:44] [main] [utils.actions.Waits] - Waiting the element to be present By.id: billing:use_for_shipping_yes
+[INFO] - [13-08-2025 15:21:44] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: billing:use_for_shipping_yes
+[INFO] - [13-08-2025 15:21:44] [main] [utils.actions.ElementsActions] - Clicking on element: By.id: billing:use_for_shipping_yes
+[INFO] - [13-08-2025 15:21:44] [main] [utils.actions.Waits] - Waiting the element to be clickable By.xpath: //*[@id="billing-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:44] [main] [utils.actions.Waits] - Waiting the element to be visible By.xpath: //*[@id="billing-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:44] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id="billing-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:44] [main] [utils.actions.Scrolling] - Scrolling to the element: By.xpath: //*[@id="billing-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:44] [main] [utils.actions.ElementsActions] - Clicking on element: By.xpath: //*[@id="billing-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:44] [main] [utils.actions.Waits] - Waiting the element to be clickable By.xpath: //*[@id="shipping-method-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:44] [main] [utils.actions.Waits] - Waiting the element to be visible By.xpath: //*[@id="shipping-method-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:44] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id="shipping-method-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:45] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id="shipping-method-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:45] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id="shipping-method-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:46] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id="shipping-method-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:47] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id="shipping-method-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:47] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id="shipping-method-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:48] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id="shipping-method-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:48] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id="shipping-method-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:49] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id="shipping-method-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:49] [main] [utils.actions.Scrolling] - Scrolling to the element: By.xpath: //*[@id="shipping-method-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:49] [main] [utils.actions.ElementsActions] - Clicking on element: By.xpath: //*[@id="shipping-method-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:49] [main] [utils.actions.Waits] - Waiting the element to be clickable By.xpath: //*[@id="payment-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:49] [main] [utils.actions.Waits] - Waiting the element to be visible By.xpath: //*[@id="payment-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:49] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id="payment-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:49] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id="payment-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:49] [main] [utils.actions.Scrolling] - Scrolling to the element: By.xpath: //*[@id="payment-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:49] [main] [utils.actions.ElementsActions] - Clicking on element: By.xpath: //*[@id="payment-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:49] [main] [utils.actions.Waits] - Waiting the element to be clickable By.xpath: //*[@id="review-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:49] [main] [utils.actions.Waits] - Waiting the element to be visible By.xpath: //*[@id="review-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:49] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: //*[@id="review-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:50] [main] [utils.actions.Scrolling] - Scrolling to the element: By.xpath: //*[@id="review-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:50] [main] [utils.actions.ElementsActions] - Clicking on element: By.xpath: //*[@id="review-buttons-container"]/button
+[INFO] - [13-08-2025 15:21:50] [main] [utils.report.AllureUtils] - Screenshot attached to Allure report
+[INFO] - [13-08-2025 15:21:50] [main] [utils.report.AllureUtils] - Logs attached to Allure report
+[INFO] - [13-08-2025 15:21:50] [main] [listeners.TestNGListeners] - Test passed :E2eGetProductFromHome
+[INFO] - [13-08-2025 15:21:51] [main] [utils.actions.BrowserActions] - Driver down
+[INFO] - [13-08-2025 15:21:51] [main] [org.testng.internal.Utils] - [TestNG] Time taken by org.testng.internal.ExitCodeListener@2a1107a9: 0 ms
+[INFO] - [13-08-2025 15:21:51] [main] [listeners.TestNGListeners] - Test Execution Finished

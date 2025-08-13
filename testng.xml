@@ -1,13 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Selenium Automation Suite">
-    <listeners>
-        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
-    </listeners>
-
-    <test name="Contact Us Feature Tests">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="D:/automation_Project/src/test/java/tests/happy_scenario/E2eTests.java">
         <classes>
-            <class name="tests.testcases.TestContactUsFeature"/>
+            <class name="tests.happy_scenario.E2eTests">
+                <methods>
+                    <include name="E2EUsingSearch"/>
+                    <include name="E2eGetProductFromCategories"/>
+                    <include name="E2eGetProductFromHome"/>
+                </methods>
+            </class>
         </classes>
     </test>
-
 </suite>

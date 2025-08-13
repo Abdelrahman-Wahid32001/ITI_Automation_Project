@@ -25,7 +25,7 @@ public class P7_ProductsPage  {
 
     public P8_ShoppingCartPage setChelseaTeeWhite() {
         //Click(driver, chelseaTeeWhite);
-        Click(driver, sizeM);
+        Click(driver, sizeXS);
         Click(driver, colorWhite);
         Click(driver, addToCartBtn);
         return new P8_ShoppingCartPage(driver);
