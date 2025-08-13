@@ -19,6 +19,9 @@ public class P6_SubCategoryPage {
     private final By manShirtsFrench = By.cssSelector("a[title='French Cuff Cotton Twill Oxford']");
     private final By sortByList = By.id("toolbar-sortby");
     private final By parkRowThrow = By.id("product-collection-image-384");
+    private final By gramercyThrow = By.id("product-collection-image-385");
+
+
 
     public P7_ProductsPage getFrenchCuffItemPage() {
         Click(driver, manShirtsFrench);
@@ -31,6 +34,12 @@ public class P6_SubCategoryPage {
         return new P7_ProductsPage(driver);
 
     }
+    public P7_ProductsPage getGramercyThrowPage() {
+        Click(driver, gramercyThrow);
+        return new P7_ProductsPage(driver);
+
+    }
+
 
     public P6_SubCategoryPage filterByPrice() {
         Click(driver, shirtsPriceFilter);

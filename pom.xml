@@ -14,7 +14,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <selenium.version>4.25.0</selenium.version>
         <testng.version>7.10.2</testng.version>
-        <webdrivermanager.version>5.8.0</webdrivermanager.version>
+        <webdrivermanager.version>6.2.0</webdrivermanager.version>
         <allure.testng.version>2.27.0</allure.testng.version>
         <allure.maven.version>2.12.0</allure.maven.version>
         <aspectj.version>1.9.21</aspectj.version>
@@ -36,6 +36,9 @@
     </dependencyManagement>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+
+
 
         <!-- Selenium -->
         <dependency>

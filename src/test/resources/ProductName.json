@@ -13,8 +13,8 @@
   },
   "ParkRowThrow": {
     "name": "Park Row Throw",
-    "price": "$120.00"
+    "price": "$275.00"
   },
-  "SuggestProduct": ["des","rx3"],
+  "SuggestProduct": ["des","avia"],
   "numberOfProduct": ["1","5","100"]
   }

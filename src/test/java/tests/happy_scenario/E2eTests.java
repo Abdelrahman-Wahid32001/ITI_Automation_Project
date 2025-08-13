@@ -58,7 +58,7 @@ public class E2eTests extends TestBase {
                 .selectFromCategoryHome_Decor()
                 .sortByPrice()
                 .sortByName()
-                .getParkRowThrowPage()
+                .getGramercyThrowPage()
                 .setAddToCart()
                 .assertURL()
                 .assertPrice(item.numberOfProduct.get(0), item.ParkRowThrow.price)

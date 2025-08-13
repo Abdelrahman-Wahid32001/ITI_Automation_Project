@@ -2,6 +2,7 @@ package utils.actions;
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -61,7 +62,24 @@ public class ElementsActions {
 
     public static WebElement findElement(WebDriver driver, By locator) {
         logFindElement(locator);
-        return driver.findElement(locator);
+        int attempts = 0;
+        int maxAttempts = 3;
+
+        while (attempts < maxAttempts) {
+            try {
+                return driver.findElement(locator);
+            } catch (StaleElementReferenceException e) {
+                attempts++;
+               LogsUtils.warn("🔁 Trying " + attempts + "  StaleElementReferenceException");
+                try {
+                    Thread.sleep(500);
+                } catch (InterruptedException ie) {
+                    Thread.currentThread().interrupt();
+                }
+            }
+        }
+
+        throw new RuntimeException("disable to find the element " + maxAttempts + "  StaleElementReferenceException: " + locator);
     }
 
     @Step("Confirm the alert")
