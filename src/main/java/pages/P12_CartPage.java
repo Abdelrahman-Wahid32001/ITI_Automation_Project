@@ -2,8 +2,8 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import utils.validation.CustomSoftAssertion;
 import utils.actions.ElementsActions;
+import utils.validation.CustomSoftAssertion;
 
 import static utils.actions.ElementsActions.*;
 
@@ -35,11 +35,13 @@ public class P12_CartPage {
         confirmAlert(driver);
         return this;
     }
+
     public P12_CartPage editItemOnCart() {
         SetText(driver, cartQuantityBox, "3");
         Click(driver, cartQuantityBox);
         return this;
     }
+
     public <T> T closeCartFeature(Class<T> returnPage) {
         Click(driver, XBtn);
         try {
@@ -53,12 +55,14 @@ public class P12_CartPage {
         Click(driver, shoppingCartLink);
         return new P8_ShoppingCartPage(driver);
     }
-    public P12_CartPage assertCartOpen(String message){
-        CustomSoftAssertion.SoftAssertion.assertEquals(ElementsActions.getText(driver,By.cssSelector("div.offcanvas-title")),message);
+
+    public P12_CartPage assertCartOpen(String message) {
+        CustomSoftAssertion.SoftAssertion.assertEquals(ElementsActions.getText(driver, By.cssSelector("div.offcanvas-title")), message);
         return this;
     }
-    public P12_CartPage assertCartEmpty(String message){
-        CustomSoftAssertion.SoftAssertion.assertEquals(ElementsActions.getText(driver,By.cssSelector("p.empty")), message);
+
+    public P12_CartPage assertCartEmpty(String message) {
+        CustomSoftAssertion.SoftAssertion.assertEquals(ElementsActions.getText(driver, By.cssSelector("p.empty")), message);
         return this;
     }
 }

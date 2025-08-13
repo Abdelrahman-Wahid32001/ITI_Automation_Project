@@ -7,7 +7,7 @@ import utils.validation.CustomSoftAssertion;
 import static utils.actions.ElementsActions.Click;
 import static utils.actions.ElementsActions.SetText;
 
-public class P7_ProductsPage  {
+public class P7_ProductsPage {
     private final By chelseaTeeWhite = By.id("product-collection-image-409");
     private final By LinenBlazer = By.cssSelector("img[alt='Linen Blazer']");
     private final By sizeM = By.id("option79");
@@ -18,45 +18,48 @@ public class P7_ProductsPage  {
     private final By editItemNo = By.cssSelector("input[title='Qty']");
 
 
-    private  final WebDriver driver;
-    public P7_ProductsPage (WebDriver driver){
+    private final WebDriver driver;
+
+    public P7_ProductsPage(WebDriver driver) {
         this.driver = driver;
     }
 
     public P8_ShoppingCartPage setChelseaTeeWhite() {
-        //Click(driver, chelseaTeeWhite);
         Click(driver, sizeXS);
         Click(driver, colorWhite);
         Click(driver, addToCartBtn);
         return new P8_ShoppingCartPage(driver);
     }
-    public  P8_ShoppingCartPage setLinenBlazer() {
-        //Click(driver, LinenBlazer);
+
+    public P8_ShoppingCartPage setLinenBlazer() {
         Click(driver, sizeXL);
         Click(driver, colorWhite);
         Click(driver, addToCartBtn);
         return new P8_ShoppingCartPage(driver);
     }
-    public  P8_ShoppingCartPage setFrenchCuff() {
-        Click(driver, sizeM);
+
+    public P8_ShoppingCartPage setFrenchCuff() {
+        Click(driver, sizeXS);
         Click(driver, colorWhite);
         Click(driver, addToCartBtn);
         return new P8_ShoppingCartPage(driver);
     }
-    public P8_ShoppingCartPage setAddToCart(){
-        Click(driver, addToCartBtn );
+
+    public P8_ShoppingCartPage setAddToCart() {
+        Click(driver, addToCartBtn);
         return new P8_ShoppingCartPage(driver);
     }
-    public P7_ProductsPage editProductNO(String No){
-        SetText(driver,editItemNo,No);
-        Click(driver,editItemNo);
+
+    public P7_ProductsPage editProductNO(String No) {
+        SetText(driver, editItemNo, No);
+        Click(driver, editItemNo);
 
         return this;
     }
 
-    public P7_ProductsPage assertButtonAvailable (){
+    public P7_ProductsPage assertButtonAvailable() {
         CustomSoftAssertion.SoftAssertion.assertTrue(driver.getPageSource().contains("Update"), "Update Button is not available");
-return this;
+        return this;
     }
 
 

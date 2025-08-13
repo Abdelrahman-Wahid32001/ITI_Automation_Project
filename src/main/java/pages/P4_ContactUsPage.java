@@ -5,13 +5,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import utils.helper.PropertiesUtils;
 
-import static utils.validation.CustomSoftAssertion.SoftAssertion;
 import static utils.actions.ElementsActions.Click;
 import static utils.actions.ElementsActions.SetText;
+import static utils.validation.CustomSoftAssertion.SoftAssertion;
 
-public class P4_ContactUsPage  {
-    private  final WebDriver driver;
-    public P4_ContactUsPage (WebDriver driver){
+public class P4_ContactUsPage {
+    private final WebDriver driver;
+
+    public P4_ContactUsPage(WebDriver driver) {
         this.driver = driver;
     }
 
@@ -34,7 +35,6 @@ public class P4_ContactUsPage  {
     }
 
     public void clickToSubmitMessage() {
-
         Click(driver, submitBtn);
         try {
             Thread.sleep(10000);
@@ -42,18 +42,18 @@ public class P4_ContactUsPage  {
             throw new RuntimeException(e);
         }
     }
-
-
     //Validation
 
-    public P4_ContactUsPage assertContactUsURL(){
-        SoftAssertion.assertEquals(driver.getCurrentUrl(), PropertiesUtils.getPropertyValue("ContactUs"),"URL is not expected");
+    public P4_ContactUsPage assertContactUsURL() {
+        SoftAssertion.assertEquals(driver.getCurrentUrl(), PropertiesUtils.getPropertyValue("ContactUs"), "URL is not expected");
         return this;
     }
-    public void assertContactUsTitle(){
-       SoftAssertion.assertEquals(driver.getTitle(),"contacts","Title is not expected");
+
+    public void assertContactUsTitle() {
+        SoftAssertion.assertEquals(driver.getTitle(), "contacts", "Title is not expected");
     }
-    public P4_ContactUsPage allAssertContactUs(){
+
+    public P4_ContactUsPage allAssertContactUs() {
         assertContactUsURL().assertContactUsTitle();
         return this;
     }

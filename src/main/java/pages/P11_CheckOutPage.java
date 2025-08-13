@@ -7,8 +7,9 @@ import org.openqa.selenium.WebDriver;
 import static utils.actions.ElementsActions.Click;
 
 public class P11_CheckOutPage {
-    private  final WebDriver driver;
-    public P11_CheckOutPage(WebDriver driver){
+    private final WebDriver driver;
+
+    public P11_CheckOutPage(WebDriver driver) {
         this.driver = driver;
     }
 

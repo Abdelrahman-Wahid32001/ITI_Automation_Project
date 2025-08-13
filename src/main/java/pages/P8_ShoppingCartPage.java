@@ -3,9 +3,9 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import utils.actions.BrowserActions;
-import utils.validation.CustomSoftAssertion;
 import utils.actions.ElementsActions;
 import utils.report.LogsUtils;
+import utils.validation.CustomSoftAssertion;
 
 import java.text.DecimalFormat;
 
@@ -78,6 +78,7 @@ public class P8_ShoppingCartPage {
         CustomSoftAssertion.SoftAssertion.assertTrue(ElementsActions.getText(driver, errorMessage).contains(errorMSG));
         return this;
     }
+
     public P0_HomePage navigateToHmePage() {
         BrowserActions.navigateToURL(driver, getPropertyValue("homeURL"));
         return new P0_HomePage(driver);

@@ -1,11 +1,13 @@
 package pages;
 
-import org.openqa.selenium.*;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import utils.actions.BrowserActions;
-import utils.validation.CustomSoftAssertion;
 import utils.helper.PropertiesUtils;
+import utils.validation.CustomSoftAssertion;
 
-import static utils.actions.ElementsActions.*;
+import static utils.actions.ElementsActions.Click;
+import static utils.actions.ElementsActions.hoverAndClick;
 import static utils.helper.PropertiesUtils.getPropertyValue;
 
 public class P0_HomePage {
@@ -34,8 +36,6 @@ public class P0_HomePage {
         BrowserActions.navigateToURL(driver, getPropertyValue("homeURL"));
         return this;
     }
-
-
 
 
     public P0_HomePage backToHomeByLogo() {
@@ -67,11 +67,11 @@ public class P0_HomePage {
         hoverAndClick(driver, Bed_DecorCategory, bedOnBed_DecorCategory);
         return new P6_SubCategoryPage(driver);
     }
+
     public P12_CartPage openCart() {
         Click(driver, cart);
         return new P12_CartPage(driver);
     }
-
 
 
     public P0_HomePage assertTitle() {

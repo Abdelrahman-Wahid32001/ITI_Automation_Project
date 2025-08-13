@@ -1,9 +1,10 @@
 package pages;
 
-import org.openqa.selenium.*;
-import utils.validation.CustomSoftAssertion;
-import utils.report.LogsUtils;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import utils.helper.PropertiesUtils;
+import utils.report.LogsUtils;
+import utils.validation.CustomSoftAssertion;
 
 import static utils.actions.ElementsActions.Click;
 import static utils.actions.ElementsActions.SetText;
@@ -27,7 +28,6 @@ public class P2_RegistrationPage {
     private final By invalidPassMSG = By.id("advice-required-entry-password");
 
 
-
     public P2_RegistrationPage userRegistration(String fname, String lname, String emailText, String pass) {
         SetText(driver, firstName, fname);
         SetText(driver, lastName, lname);
@@ -47,19 +47,14 @@ public class P2_RegistrationPage {
         return this;
     }
 
-    public P2_RegistrationPage assertURL(){
+    public P2_RegistrationPage assertURL() {
         CustomSoftAssertion.SoftAssertion.assertEquals(driver.getCurrentUrl(), PropertiesUtils.getPropertyValue("RegisterURL"));
         return this;
     }
-    /*
-    public P2_RegistrationPage assertMSG(String errorMSG){
-      CustomSoftAssertion.SoftAssertion.assertEquals(ElementsActions.getText(driver, registrationAccountMSG),driver.getPageSource().contains(errorMSG));
-      return this;
-    }*/
 
-    public P2_RegistrationPage  assertMSG(String errorMSG){
+    public P2_RegistrationPage assertMSG(String errorMSG) {
         CustomSoftAssertion.SoftAssertion.assertTrue(driver.getPageSource().contains(errorMSG));
-        LogsUtils.debug("MSG : "+driver.getPageSource().contains(errorMSG));
+        LogsUtils.debug("MSG : " + driver.getPageSource().contains(errorMSG));
         return this;
     }
 

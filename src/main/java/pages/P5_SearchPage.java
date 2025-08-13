@@ -6,10 +6,11 @@ import org.openqa.selenium.WebDriver;
 
 import static utils.actions.ElementsActions.*;
 
-public class P5_SearchPage  {
+public class P5_SearchPage {
 
-    private  final WebDriver driver;
-    public P5_SearchPage (WebDriver driver){
+    private final WebDriver driver;
+
+    public P5_SearchPage(WebDriver driver) {
         this.driver = driver;
     }
 
@@ -41,9 +42,10 @@ public class P5_SearchPage  {
         return this;
 
     }
+
     @Step("Select item fom suggestion search : {index}")
-    public P7_ProductsPage selectProduct( int index){
-        getProductFromList(driver, suggestionItem,index);
+    public P7_ProductsPage selectProduct(int index) {
+        getProductFromList(driver, suggestionItem, index);
         return new P7_ProductsPage(driver);
     }
 
