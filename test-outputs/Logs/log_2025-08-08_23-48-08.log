@@ -1,0 +1,39 @@
+[DEBUG] - [08-08-2025 23:48:09] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\MTM\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [08-08-2025 23:48:12] [main] [listeners.TestNGListeners] -  Test Execution Start :
+[INFO] - [08-08-2025 23:48:12] [main] [utils.helper.PropertiesUtils] - Loading Properties File Data
+[INFO] - [08-08-2025 23:48:12] [main] [utils.helper.FilesUtils] - Cleaned directory successfully: test-outputs\ScreenShots
+[WARN] - [08-08-2025 23:48:12] [main] [utils.helper.FilesUtils] - Could not clean directory (maybe it's in use?): test-outputs\Logs
+[WARN] - [08-08-2025 23:48:12] [main] [listeners.TestNGListeners] - Logs folder is probably in use and couldn't be cleaned.
+[INFO] - [08-08-2025 23:48:12] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\MTM\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [08-08-2025 23:48:17] [main] [drivers.DriverManager] - Driver created on: Edge
+[INFO] - [08-08-2025 23:48:21] [main] [utils.actions.BrowserActions] - Navigate to URL:https://demo.mahocommerce.com/
+[INFO] - [08-08-2025 23:48:21] [main] [utils.actions.BrowserActions] - Page title:Madison Island
+[INFO] - [08-08-2025 23:48:21] [main] [utils.actions.BrowserActions] - Current URL:https://demo.mahocommerce.com/
+[INFO] - [08-08-2025 23:48:21] [main] [utils.actions.Waits] - Waiting the element to be clickable By.xpath: /html/body/div/div/footer/div/div[2]/ul/li[2]/a
+[INFO] - [08-08-2025 23:48:21] [main] [utils.actions.Waits] - Waiting the element to be visible By.xpath: /html/body/div/div/footer/div/div[2]/ul/li[2]/a
+[INFO] - [08-08-2025 23:48:21] [main] [utils.actions.Waits] - Waiting the element to be present By.xpath: /html/body/div/div/footer/div/div[2]/ul/li[2]/a
+[INFO] - [08-08-2025 23:48:21] [main] [utils.actions.Scrolling] - Scrolling to the element: By.xpath: /html/body/div/div/footer/div/div[2]/ul/li[2]/a
+[INFO] - [08-08-2025 23:48:21] [main] [utils.actions.ElementsActions] - Clicking on element: By.xpath: /html/body/div/div/footer/div/div[2]/ul/li[2]/a
+[INFO] - [08-08-2025 23:48:22] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: name
+[INFO] - [08-08-2025 23:48:22] [main] [utils.actions.Waits] - Waiting the element to be present By.id: name
+[INFO] - [08-08-2025 23:48:22] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: name
+[INFO] - [08-08-2025 23:48:22] [main] [utils.actions.ElementsActions] - Data entered: AbdoWahid' into By.id: name
+[INFO] - [08-08-2025 23:48:22] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: email
+[INFO] - [08-08-2025 23:48:22] [main] [utils.actions.Waits] - Waiting the element to be present By.id: email
+[INFO] - [08-08-2025 23:48:22] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: email
+[INFO] - [08-08-2025 23:48:22] [main] [utils.actions.ElementsActions] - Data entered: nike@all.com' into By.id: email
+[INFO] - [08-08-2025 23:48:22] [main] [utils.actions.Waits] - Waiting the element to be visible By.id: comment
+[INFO] - [08-08-2025 23:48:22] [main] [utils.actions.Waits] - Waiting the element to be present By.id: comment
+[INFO] - [08-08-2025 23:48:22] [main] [utils.actions.Scrolling] - Scrolling to the element: By.id: comment
+[INFO] - [08-08-2025 23:48:22] [main] [utils.actions.ElementsActions] - Data entered: Welcome on our Website.' into By.id: comment
+[INFO] - [08-08-2025 23:48:22] [main] [utils.actions.Waits] - Waiting the element to be clickable By.cssSelector: button[title='Submit']
+[INFO] - [08-08-2025 23:48:22] [main] [utils.actions.Waits] - Waiting the element to be visible By.cssSelector: button[title='Submit']
+[INFO] - [08-08-2025 23:48:22] [main] [utils.actions.Waits] - Waiting the element to be present By.cssSelector: button[title='Submit']
+[INFO] - [08-08-2025 23:48:22] [main] [utils.actions.Scrolling] - Scrolling to the element: By.cssSelector: button[title='Submit']
+[INFO] - [08-08-2025 23:48:23] [main] [utils.actions.ElementsActions] - Clicking on element: By.cssSelector: button[title='Submit']
+[INFO] - [08-08-2025 23:48:33] [main] [utils.report.AllureUtils] - Screenshot attached to Allure report
+[INFO] - [08-08-2025 23:48:33] [main] [utils.report.AllureUtils] - Logs attached to Allure report
+[INFO] - [08-08-2025 23:48:33] [main] [listeners.TestNGListeners] - Test passed :testContactUsfeature
+[INFO] - [08-08-2025 23:48:33] [main] [listeners.TestNGListeners] - Test Execution Finished

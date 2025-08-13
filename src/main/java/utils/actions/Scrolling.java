@@ -1,12 +1,12 @@
-package utils;
+package utils.actions;
 
-import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import utils.report.LogsUtils;
 
-import static utils.AllureSteps.logScrollToElement;
-import static utils.ElementsActions.findElement;
+import static utils.report.AllureSteps.logScrollToElement;
+import static utils.actions.ElementsActions.findElement;
 
 public class Scrolling {
      private Scrolling(){

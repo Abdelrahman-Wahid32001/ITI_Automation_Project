@@ -4,7 +4,7 @@ package tests.testcases;
 import org.testng.annotations.Test;
 import pages.P0_HomePage;
 import tests.TestBase;
-import utils.PropertiesUtils;
+import utils.helper.PropertiesUtils;
 
 
 public class TestContactUsFeature extends TestBase {

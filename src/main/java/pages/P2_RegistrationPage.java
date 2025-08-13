@@ -1,12 +1,12 @@
 package pages;
 
 import org.openqa.selenium.*;
-import utils.CustomSoftAssertion;
-import utils.LogsUtils;
-import utils.PropertiesUtils;
+import utils.validation.CustomSoftAssertion;
+import utils.report.LogsUtils;
+import utils.helper.PropertiesUtils;
 
-import static utils.ElementsActions.Click;
-import static utils.ElementsActions.SetText;
+import static utils.actions.ElementsActions.Click;
+import static utils.actions.ElementsActions.SetText;
 
 public class P2_RegistrationPage {
     private final WebDriver driver;

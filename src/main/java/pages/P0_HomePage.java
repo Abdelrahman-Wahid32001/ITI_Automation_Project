@@ -1,13 +1,12 @@
 package pages;
 
-import io.qameta.allure.Step;
 import org.openqa.selenium.*;
-import utils.BrowserActions;
-import utils.CustomSoftAssertion;
-import utils.PropertiesUtils;
+import utils.actions.BrowserActions;
+import utils.validation.CustomSoftAssertion;
+import utils.helper.PropertiesUtils;
 
-import static utils.ElementsActions.*;
-import static utils.PropertiesUtils.getPropertyValue;
+import static utils.actions.ElementsActions.*;
+import static utils.helper.PropertiesUtils.getPropertyValue;
 
 public class P0_HomePage {
     private final WebDriver driver;
@@ -68,9 +67,9 @@ public class P0_HomePage {
         hoverAndClick(driver, Bed_DecorCategory, bedOnBed_DecorCategory);
         return new P6_SubCategoryPage(driver);
     }
-    public CartPage openCart() {
+    public P12_CartPage openCart() {
         Click(driver, cart);
-        return new CartPage(driver);
+        return new P12_CartPage(driver);
     }
 
 

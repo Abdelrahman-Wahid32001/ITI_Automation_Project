@@ -2,10 +2,10 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import utils.CustomSoftAssertion;
-import utils.PropertiesUtils;
+import utils.validation.CustomSoftAssertion;
+import utils.helper.PropertiesUtils;
 
-import static utils.ElementsActions.Click;
+import static utils.actions.ElementsActions.Click;
 
 public class P9_CheckOutMethodPage  {
     private  final WebDriver driver;

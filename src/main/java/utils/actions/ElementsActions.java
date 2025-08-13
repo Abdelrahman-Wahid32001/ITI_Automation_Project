@@ -1,4 +1,4 @@
-package utils;
+package utils.actions;
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
@@ -6,10 +6,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
+import utils.report.LogsUtils;
 
 import java.util.List;
 
-import static utils.AllureSteps.*;
+import static utils.report.AllureSteps.*;
 
 public class ElementsActions {
 

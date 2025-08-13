@@ -1,10 +1,12 @@
-package utils;
+package utils.helper;
 
 
 import drivers.DriverManager;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import utils.report.AllureUtils;
+import utils.report.LogsUtils;
 
 import java.io.File;
 import java.text.SimpleDateFormat;

@@ -1,6 +1,8 @@
-package utils;
+package utils.helper;
 
 import org.apache.commons.io.FileUtils;
+import utils.report.LogsUtils;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;

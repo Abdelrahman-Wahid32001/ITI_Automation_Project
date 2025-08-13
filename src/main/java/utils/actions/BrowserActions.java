@@ -1,7 +1,8 @@
-package utils;
+package utils.actions;
 
 import drivers.DriverManager;
 import org.openqa.selenium.WebDriver;
+import utils.report.LogsUtils;
 
 public class BrowserActions {
     private BrowserActions(){}

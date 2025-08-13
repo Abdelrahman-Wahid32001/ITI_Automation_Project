@@ -1,7 +1,8 @@
-package utils;
+package utils.actions;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import utils.report.LogsUtils;
 
 import java.time.Duration;
 

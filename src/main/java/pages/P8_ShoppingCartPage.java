@@ -2,16 +2,16 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import utils.BrowserActions;
-import utils.CustomSoftAssertion;
-import utils.ElementsActions;
-import utils.LogsUtils;
+import utils.actions.BrowserActions;
+import utils.validation.CustomSoftAssertion;
+import utils.actions.ElementsActions;
+import utils.report.LogsUtils;
 
 import java.text.DecimalFormat;
 
-import static utils.ElementsActions.Click;
-import static utils.ElementsActions.SetText;
-import static utils.PropertiesUtils.getPropertyValue;
+import static utils.actions.ElementsActions.Click;
+import static utils.actions.ElementsActions.SetText;
+import static utils.helper.PropertiesUtils.getPropertyValue;
 
 public class P8_ShoppingCartPage {
     private final WebDriver driver;

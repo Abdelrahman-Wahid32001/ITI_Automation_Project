@@ -3,11 +3,8 @@ package pages;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
-import utils.BrowserActions;
-import utils.LogsUtils;
 
-import static utils.ElementsActions.*;
+import static utils.actions.ElementsActions.*;
 
 public class P5_SearchPage  {
 

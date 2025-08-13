@@ -3,8 +3,8 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-import static utils.ElementsActions.Click;
-import static utils.ElementsActions.SetText;
+import static utils.actions.ElementsActions.Click;
+import static utils.actions.ElementsActions.SetText;
 
 public class P3_ForgetPasswordPage  {
 

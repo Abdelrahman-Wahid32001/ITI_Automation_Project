@@ -1,4 +1,4 @@
-package utils;
+package utils.dataReader;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 

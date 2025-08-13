@@ -1,14 +1,14 @@
 package listeners;
 
-import utils.FilesUtils;
-import utils.LogsUtils;
-import utils.ScreenShotsUtils;
+import utils.helper.FilesUtils;
+import utils.report.LogsUtils;
+import utils.helper.ScreenShotsUtils;
 import org.testng.*;
 
 import java.io.File;
 
-import static utils.AllureUtils.attachLogsToAllure;
-import static utils.PropertiesUtils.loadProperties;
+import static utils.report.AllureUtils.attachLogsToAllure;
+import static utils.helper.PropertiesUtils.loadProperties;
 
 public class TestNGListeners implements ITestListener, IExecutionListener, IInvokedMethodListener {
     File allure_results = new File("test-outputs/allure-results");

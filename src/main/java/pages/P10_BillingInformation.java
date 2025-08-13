@@ -2,12 +2,12 @@ package pages;
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.*;
-import utils.CustomSoftAssertion;
-import utils.PropertiesUtils;
+import utils.validation.CustomSoftAssertion;
+import utils.helper.PropertiesUtils;
 
-import static utils.ElementsActions.Click;
-import static utils.ElementsActions.SetText;
-import static utils.ElementsActions.Select;
+import static utils.actions.ElementsActions.Click;
+import static utils.actions.ElementsActions.SetText;
+import static utils.actions.ElementsActions.Select;
 
 public class P10_BillingInformation  {
     private final WebDriver driver;

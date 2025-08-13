@@ -3,14 +3,13 @@ package pages;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
-import utils.BrowserActions;
-import utils.CustomSoftAssertion;
-import utils.ElementsActions;
-import utils.PropertiesUtils;
+import utils.actions.BrowserActions;
+import utils.validation.CustomSoftAssertion;
+import utils.actions.ElementsActions;
+import utils.helper.PropertiesUtils;
 
 
-import static utils.ElementsActions.*;
+import static utils.actions.ElementsActions.*;
 
 public class P1_AccountPage  {
     private  final WebDriver driver;

@@ -4,7 +4,7 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-import static utils.ElementsActions.Click;
+import static utils.actions.ElementsActions.Click;
 
 public class P11_CheckOutPage {
     private  final WebDriver driver;

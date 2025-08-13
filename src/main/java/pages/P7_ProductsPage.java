@@ -2,10 +2,10 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import utils.CustomSoftAssertion;
+import utils.validation.CustomSoftAssertion;
 
-import static utils.ElementsActions.Click;
-import static utils.ElementsActions.SetText;
+import static utils.actions.ElementsActions.Click;
+import static utils.actions.ElementsActions.SetText;
 
 public class P7_ProductsPage  {
     private final By chelseaTeeWhite = By.id("product-collection-image-409");

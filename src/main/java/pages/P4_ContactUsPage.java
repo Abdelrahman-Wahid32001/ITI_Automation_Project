@@ -3,15 +3,11 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import utils.ElementsActions;
-import utils.PropertiesUtils;
-import utils.Waits;
+import utils.helper.PropertiesUtils;
 
-import java.util.Properties;
-
-import static utils.CustomSoftAssertion.SoftAssertion;
-import static utils.ElementsActions.Click;
-import static utils.ElementsActions.SetText;
+import static utils.validation.CustomSoftAssertion.SoftAssertion;
+import static utils.actions.ElementsActions.Click;
+import static utils.actions.ElementsActions.SetText;
 
 public class P4_ContactUsPage  {
     private  final WebDriver driver;

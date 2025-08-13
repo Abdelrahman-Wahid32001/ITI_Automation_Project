@@ -1,5 +1,7 @@
-package utils;
+package utils.dataReader;
 
+
+import utils.report.LogsUtils;
 
 import java.io.FileInputStream;
 import java.io.IOException;

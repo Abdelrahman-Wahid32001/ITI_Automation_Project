@@ -1,7 +1,5 @@
-package utils;
+package utils.validation;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.testng.asserts.SoftAssert;
 
 public class CustomSoftAssertion extends SoftAssert {

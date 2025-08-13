@@ -9,10 +9,10 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
-import utils.BrowserActions;
-import utils.CustomSoftAssertion;
-import utils.JsonUtils;
-import utils.Properties_Data;
+import utils.actions.BrowserActions;
+import utils.dataReader.JsonUtils;
+import utils.dataReader.Properties_Data;
+import utils.validation.CustomSoftAssertion;
 
 @Listeners(TestNGListeners.class)
 public class TestBase {
@@ -26,18 +26,19 @@ public class TestBase {
     public ProductData MSG = JsonUtils.readJsonAsObject(path_3, ProductData.class);
 
 
-@BeforeMethod
-@Step("Setup the environment")
-public void setUp() {
-    DriverManager.createInstance();
-    driver = DriverManager.getDriver();
-}
+    @BeforeMethod
+    @Step("Setup the environment")
+    public void setUp() {
+        DriverManager.createInstance();
+        driver = DriverManager.getDriver();
+    }
 
 
 @AfterMethod
-@Step(" shut down the environment")
+@Step("shut down the environment")
 public void tearDown() {
     BrowserActions.clossBrowser(DriverManager.getDriver());
     CustomSoftAssertion.AssertAll();
 }
 }
+

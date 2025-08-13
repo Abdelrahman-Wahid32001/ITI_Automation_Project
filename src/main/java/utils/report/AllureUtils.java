@@ -1,6 +1,7 @@
-package utils;
+package utils.report;
 
 import io.qameta.allure.Allure;
+import utils.helper.FilesUtils;
 
 import java.io.File;
 import java.nio.file.Files;
