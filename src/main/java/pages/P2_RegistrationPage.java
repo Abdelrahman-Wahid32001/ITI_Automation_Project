@@ -2,7 +2,7 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import utils.helper.PropertiesUtils;
+import utils.dataReader.PropertiesUtils;
 import utils.report.LogsUtils;
 import utils.validation.CustomSoftAssertion;
 

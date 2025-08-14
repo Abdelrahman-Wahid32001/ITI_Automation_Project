@@ -3,7 +3,7 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import utils.helper.PropertiesUtils;
+import utils.dataReader.PropertiesUtils;
 
 import static utils.actions.ElementsActions.Click;
 import static utils.actions.ElementsActions.SetText;

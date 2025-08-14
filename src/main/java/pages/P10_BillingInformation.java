@@ -3,7 +3,7 @@ package pages;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import utils.helper.PropertiesUtils;
+import utils.dataReader.PropertiesUtils;
 import utils.validation.CustomSoftAssertion;
 
 import static utils.actions.ElementsActions.*;

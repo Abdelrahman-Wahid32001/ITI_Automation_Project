@@ -14,6 +14,7 @@ public class P7_ProductsPage {
     private final By sizeXS = By.id("option81");
     private final By sizeXL = By.id("swatch77");
     private final By colorWhite = By.id("swatch22");
+    private final By colorBlack = By.id("swatch20");
     private final By addToCartBtn = By.cssSelector("button[title='Add to Cart']");
     private final By editItemNo = By.cssSelector("input[title='Qty']");
 
@@ -25,8 +26,8 @@ public class P7_ProductsPage {
     }
 
     public P8_ShoppingCartPage setChelseaTeeWhite() {
-        Click(driver, sizeXS);
-        Click(driver, colorWhite);
+        Click(driver, colorBlack);
+        Click(driver, sizeM);
         Click(driver, addToCartBtn);
         return new P8_ShoppingCartPage(driver);
     }

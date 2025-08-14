@@ -11,7 +11,7 @@ import java.text.DecimalFormat;
 
 import static utils.actions.ElementsActions.Click;
 import static utils.actions.ElementsActions.SetText;
-import static utils.helper.PropertiesUtils.getPropertyValue;
+import static utils.dataReader.PropertiesUtils.getPropertyValue;
 
 public class P8_ShoppingCartPage {
     private final WebDriver driver;

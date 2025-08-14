@@ -18,6 +18,9 @@ public class P5_SearchPage {
     private final By SearchBtn = By.cssSelector("button.button.search-button");
     private final By suggestionItem = By.cssSelector("#products-list > li");
     private final By chelseaTeeWhiteBtn = By.id("product-collection-image-409");
+    private final By chelseaTeeBlackBtn = By.id("product-collection-image-410");
+
+
 
 
     //Action
@@ -32,7 +35,7 @@ public class P5_SearchPage {
 
     @Step("Open product details page ")
     public P7_ProductsPage openDetailsProductPage() {
-        Click(driver, chelseaTeeWhiteBtn);
+        Click(driver, chelseaTeeBlackBtn);
         return new P7_ProductsPage(driver);
     }
 

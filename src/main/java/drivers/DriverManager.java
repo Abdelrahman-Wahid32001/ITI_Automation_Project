@@ -3,7 +3,7 @@ package drivers;
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import utils.report.LogsUtils;
-import utils.helper.PropertiesUtils;
+import utils.dataReader.PropertiesUtils;
 
 import static org.testng.Assert.fail;
 

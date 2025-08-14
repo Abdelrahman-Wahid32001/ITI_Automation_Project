@@ -8,7 +8,7 @@ import org.testng.*;
 import java.io.File;
 
 import static utils.report.AllureUtils.attachLogsToAllure;
-import static utils.helper.PropertiesUtils.loadProperties;
+import static utils.dataReader.PropertiesUtils.loadProperties;
 
 public class TestNGListeners implements ITestListener, IExecutionListener, IInvokedMethodListener {
     File allure_results = new File("test-outputs/allure-results");

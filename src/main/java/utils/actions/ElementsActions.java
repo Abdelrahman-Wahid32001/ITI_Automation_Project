@@ -22,7 +22,7 @@ public class ElementsActions {
         //el.click();
         el.clear();
         el.sendKeys(data);
-        LogsUtils.info("Data entered: " + data + "' into " + locator.toString());
+        LogsUtils.info("Data entered: " + data + "' into " + locator);
     }
 
     public static void Click(WebDriver driver, By locator) {
@@ -39,7 +39,7 @@ public class ElementsActions {
         Waits.waitForElementVisible(driver, locator);
         //Scrolling.scrollToElement(driver, locator);
         new Actions(driver).moveToElement(findElement(driver, locator)).perform();
-        LogsUtils.info("Hover on element: " + locator.toString());
+        LogsUtils.info("Hover on element: " + locator);
         findElement(driver, locator1).click();
         LogsUtils.info("Hover and click on element: " + locator1.toString());
     }

@@ -3,12 +3,12 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import utils.actions.BrowserActions;
-import utils.helper.PropertiesUtils;
+import utils.dataReader.PropertiesUtils;
 import utils.validation.CustomSoftAssertion;
 
 import static utils.actions.ElementsActions.Click;
 import static utils.actions.ElementsActions.hoverAndClick;
-import static utils.helper.PropertiesUtils.getPropertyValue;
+import static utils.dataReader.PropertiesUtils.getPropertyValue;
 
 public class P0_HomePage {
     private final WebDriver driver;
@@ -29,30 +29,23 @@ public class P0_HomePage {
     private final By cart = By.xpath("//*[@id='header']/div[1]/div[2]/div[2]/a/span[1]");
 
 
-    //Cart Elements
-
 
     public P0_HomePage navigateToPage() {
         BrowserActions.navigateToURL(driver, getPropertyValue("homeURL"));
         return this;
     }
-
-
     public P0_HomePage backToHomeByLogo() {
         Click(driver, goToHomeByLogo);
         return this;
     }
-
     public P1_AccountPage openAccountPage() {
         Click(driver, accountButton);
         return new P1_AccountPage(driver);
     }
-
     public P4_ContactUsPage openContactUsPage() {
         Click(driver, contactUs);
         return new P4_ContactUsPage(driver);
     }
-
     public P7_ProductsPage selectProductItem() {
         Click(driver, linenBlazerProduct);
         return new P7_ProductsPage(driver);
@@ -75,21 +68,17 @@ public class P0_HomePage {
 
 
     public P0_HomePage assertTitle() {
-        CustomSoftAssertion.SoftAssertion.assertEquals(BrowserActions.getPageTitle(driver), PropertiesUtils.getPropertyValue("homeTitle"));
-        return this;
-
-    }
-
+        CustomSoftAssertion.SoftAssertion
+                .assertEquals(BrowserActions
+                .getPageTitle(driver)
+                , PropertiesUtils
+                .getPropertyValue("homeTitle"));
+        return this;}
     public P0_HomePage assertURL() {
         CustomSoftAssertion.SoftAssertion.assertEquals(BrowserActions.currentURL(driver), PropertiesUtils.getPropertyValue("homeURL"));
-        return this;
-
-    }
-
+        return this;}
     public P0_HomePage assertAll() {
-        assertTitle().assertURL();
-        return this;
-    }
+        assertTitle().assertURL();return this;}
 
 
 }

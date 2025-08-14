@@ -7,6 +7,7 @@ public class ProductData {
     public ItemClass FrenchCuff;
     public ItemClass ChelseaTee;
     public ItemClass ParkRowThrow;
+    public ItemClass AviatorSunglasses;
 
     public List<String> SuggestProduct;
     public List<String> numberOfProduct;

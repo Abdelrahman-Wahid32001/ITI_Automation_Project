@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import utils.actions.BrowserActions;
 import utils.actions.ElementsActions;
-import utils.helper.PropertiesUtils;
+import utils.dataReader.PropertiesUtils;
 import utils.validation.CustomSoftAssertion;
 
 import static utils.actions.ElementsActions.Click;
