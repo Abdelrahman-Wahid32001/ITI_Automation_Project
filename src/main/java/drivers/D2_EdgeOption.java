@@ -36,7 +36,6 @@ public class D2_EdgeOption extends AbstractDriver implements WebDriverOptions<Ed
 
     @Override
     public WebDriver startDriver() {
-        WebDriverManager.edgedriver().setup();
         return new EdgeDriver(getOptions());
     }
 }
