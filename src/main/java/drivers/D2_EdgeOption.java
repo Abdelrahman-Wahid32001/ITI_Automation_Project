@@ -20,7 +20,8 @@ public class D2_EdgeOption extends AbstractDriver implements WebDriverOptions<Ed
         edgeOptions.addArguments("--disable-notifications");
         edgeOptions.addArguments("--remote-allow-origins=*");
         if(!PropertiesUtils.getPropertyValue("executionType").equalsIgnoreCase("local")){
-            edgeOptions.addArguments("--headless");
+            edgeOptions.addArguments("--headless=new");
+             edgeOptions.addArguments("window-size=1920,1080"); 
         }
         Map<String, Object> edgePrefs = Map.of(
                 "profile.default_content_setting_values.notifications", 2,
