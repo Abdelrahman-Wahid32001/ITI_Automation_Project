@@ -19,6 +19,6 @@
     "name": "Park Row Throw",
     "price": "$275.00"
   },
-  "SuggestProduct": ["des","avia"],
+  "SuggestProduct": ["des","jack"],
   "numberOfProduct": ["1","5","100"]
   }

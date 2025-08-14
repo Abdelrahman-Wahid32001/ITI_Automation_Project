@@ -90,7 +90,7 @@ public class E2eTests extends TestBase {
                 .setLinenBlazer();
         new P5_SearchPage(driver)
                 .setProductFromSuggestionSearch(item.SuggestProduct.get(1))
-                .selectProduct(1)
+                .selectProduct(2)
                 .setAddToCart()
                 .navigateToHmePage()
                 .openCart()
